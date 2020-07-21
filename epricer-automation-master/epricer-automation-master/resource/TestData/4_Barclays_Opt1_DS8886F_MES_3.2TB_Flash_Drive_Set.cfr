@@ -1,0 +1,166 @@
+003120201106ECMSSD  17051d170518EM8660021                                                    20170614                                       GBen                     00                                                                                                                                                
+030Unclassified          
+05         10                                                               
+05         10   Created on June 2, 2017 at 10:49AM by Darren Sanders        
+05         10                                                               
+05         1U   Custom ServicePacs require scoping assistance               
+05         10   Customer Requested Arrival Date: 2017/06/16                 
+061108001MDDBASE_SOURCE^1^ECMSSD  ^IBM_CRAD^1^19010102^SV_DEFAULT_CATEGORIES^6^SB_Cat_SWMA_Services^SB_Cat_Services_Storage_Services^SB_Cat_Services_Operational^SB_Cat_Services_RS_Installation^SB_Cat_Warranty_Services^SB_Maintenance_Services^IBM_PHYSEL_VERSION^1^2.0^IBM_CB_VALID^1^TRUE^SW_Global_06_swrs_cho_global_preference_control^1^sw_core_otc_charge_option^SW_Global_06_swrs_media_global_preference_control^1^swn_esd_media^SW_Global_06_swrs_language_global_preference_control^1^sw_core_language_prim_english^SW_Global_06_swrs_maintenance_global_preference_control^1^sw_core_nim_maint_3yr^SW_Global_06_swrs_shipping_options_global_control^1^sw_core_shipping_option_rgst^SW_Global_06_swrs_expedite_global_control^1^sw_core_shipping_option_no_expedite^SW_Global_06_swrs_suppress_global_control^1^sw_core_shipping_option_not_3480^SW_Global_06_swrs_preinstall_languages_control^1^sw_core_preinst_language_english_ul^SW_Global_06_swrs_cultural_languages_control^1^sw_core_cultural_std_language^SW_Global_06_swrs_support_global_preference_control^1^sw_9by5_support_service^IBM_WITHDRAWN_PRODUCTS_MODE^1^FALSE^
+07                                                   5334985SN1                      
+012BASE CONFIGURATION                                                                
+10                                                                                   
+060096001MDDIBM_INSTALLED_SIU^1^TRUE^IBM_PLATFORM^1^All^SW_TYPE^1^All^SW_MODEL^2^^pSeries or RS^
+255334 985    10003       10241       10804       10934       11050       21063       11103       11140       11150       11303       21600       21613       51699       11882       13453       84328       14424       18151      108152      108153       78251      108252      108253       78300       18351      108352      108353       7AGAC       1
+955334985          SN1      000000000            T           1                    20170616                                                    DS8886                                      
+060927001MDDibm_id_S^1^SSD_DS888X_Base_MTM 0x2EB40090 [ssd_mtm_5334_985]^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^SERVICE_INTEGRATOR_RELATED_HW^1^5334985-1-11^SB_RELATED_HW^1^5334985-1-11^IBM_MTM_CONTEXTS_MC^12^ssd_mtm_533x_985^ssd_base_mtm^ssd_base_position^ssd_283x_0241^ssd_single_phase_line_cord^ssd_283x_1882^ssd_283x_4424^ssd_283x_4328^ssd_mtm_5334_985^ibm_region_emea^ibm_country_united_kingdom^ibm_BASE^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^28^1^1^1^1^2^1^1^1^1^2^5^2^1^1^8^1^1^10^10^7^10^10^7^10^10^7^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^28^ssd_283x_0003^ssd_283x_0241^ssd_283x_0804^ssd_283x_0934^ssd_283x_1050^ssd_283x_1063^ssd_283x_1103^ssd_283x_1150^ssd_283x_1140^ssd_283x_1303^ssd_283x_1613^ssd_283x_1600^ssd_283x_1699^ssd_283x_1882^ssd_283x_3453^ssd_283x_4424^ssd_283x_4328^ssd_283x_8152^ssd_283x_8151^ssd_283x_8153^ssd_283x_8252^ssd_283x_8251^ssd_283x_8253^ssd_283x_8352^ssd_283x_8351^ssd_283x_8353^ssd_283x_8300^ssd_283x_AGAC^
+060034001BED1^1^2D7BB8E8^2D7BB8E8^
+960003                      N                     8xE factory merge                           
+960241                      N                     98x - 8xE position 1                        
+960804                      N                     250.1 TB to 500 TB capacity                 
+960934                      N                     IBM System z indicator                      
+961050                                            Single phase DC-UPS                         
+961063                                            SPP cord, 200-240V, 63A, no connector       
+961103                                            Kick Step                                   
+961140                                            Mgmt console - Primary                      
+961150                                            Mgmt console - Secondary                    
+961303                                            I/O enclosure pair PCIe G3                  
+961600                                            High Performance Flash Enclosure Gen2 pair  
+961613                                            3200 GB 2.5-inch flash card set             
+961699                                            Flash enclosure filler set                  
+961882                                            DS8000 LMC R8.2                             
+963453                                            16 Gb 4 port LW FCP/FICON adapter PCIE      
+964328                                            2 TB Processor memory (24-core only)        
+964424                                            24-core processor indicator                 
+968151                      N                     BF - Up to 100 TB capacity                  
+968152                      N                     BF - 100.1 TB to 250 TB capacity            
+968153                      N                     BF - 250.1 TB to 500 TB capacity            
+968251                      N                     CS - Up to 100 TB capacity                  
+968252                      N                     CS - 100.1 TB to 250 TB capacity            
+968253                      N                     CS - 250.1 TB to 500 TB capacity            
+968300                      N                     zsS - Active                                
+968351                      N                     zsS - Up to 100 TB capacity                 
+968352                      N                     zsS - 100.1 TB to 250 TB capacity           
+968353                      N                     zsS - 250.1 TB to 500 TB capacity           
+96AGAC                                            Shipping and handling 985                   
+255334 85E    10003       10241       10804       10934       11050       21063       11303       21600       11613       31982       13453       8AGAD       1
+95533485E          SN2      000000000            T           0                    20170616                                                    DS8886 Expansion Unit                       
+060641001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_DS888X_Base_MTM 0x2EB40090 [ssd_mtm_5334_985]^SERVICE_INTEGRATOR_RELATED_HW^1^533485E-1-12^SB_RELATED_HW^1^533485E-1-12^IBM_MTM_CONTEXTS_MC^9^ssd_mtm_533x_85E^ssd_expansion_mtm^ssd_283x_0241^ssd_single_phase_line_cord^ssd_mtm_5334_85E^ssd_expansion_position_1^ibm_region_emea^ibm_country_united_kingdom^ibm_BASE^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^12^1^1^1^1^2^1^2^3^1^1^8^1^SSD_MTM_EXPLICIT_SELECTION_MC^12^ssd_283x_0003^ssd_283x_0241^ssd_283x_0804^ssd_283x_0934^ssd_283x_1050^ssd_283x_1063^ssd_283x_1303^ssd_283x_1613^ssd_283x_1600^ssd_283x_1982^ssd_283x_3453^ssd_283x_AGAD^
+060034001BED1^2^2D7BA550^2D7BA550^
+960003                      N                     8xE factory merge                           
+960241                      N                     98x - 8xE position 1                        
+960804                      N                     250.1 TB to 500 TB capacity                 
+960934                      N                     IBM System z indicator                      
+961050                                            Single phase DC-UPS                         
+961063                                            SPP cord, 200-240V, 63A, no connector       
+961303                                            I/O enclosure pair PCIe G3                  
+961600                                            High Performance Flash Enclosure Gen2 pair  
+961613                                            3200 GB 2.5-inch flash card set             
+961982                      N                     DS8000 LMC R8.2 indicator                   
+963453                                            16 Gb 4 port LW FCP/FICON adapter PCIE      
+96AGAD                                            Shipping and handling 85E                   
+259049 FF8    10934       18151      108152      108153       78251      108252      108253       78300       18351      108352      108353       7
+959049FF8          SN3      000000000            T           0                    20170616                                                    DS8000 series Function Authorization        
+060559001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_DS888X_Base_MTM 0x2EB40090 [ssd_mtm_5334_985]^SERVICE_INTEGRATOR_RELATED_HW^1^9049FF8-1-13^SB_RELATED_HW^1^9049FF8-1-13^IBM_MTM_CONTEXTS_MC^6^ssd_mtm_904x_FF8^ssd_lfa_mtm^ssd_mtm_9049_FF8^ibm_region_emea^ibm_country_united_kingdom^ibm_BASE^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^11^10^10^7^10^10^7^10^10^7^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^11^ssd_2836_8152^ssd_2836_8151^ssd_2836_8153^ssd_2836_8252^ssd_2836_8251^ssd_2836_8253^ssd_2836_8352^ssd_2836_8351^ssd_2836_8353^ssd_2836_8300^ssd_2836_0934^
+060034001BED1^3^2D7B8FF0^2D7B8FF0^
+960934                      N                     IBM System z indicator                      
+968151                                            BF - Up to 100 TB capacity                  
+968152                                            BF - 100.1 TB to 250 TB capacity            
+968153                                            BF - 250.1 TB to 500 TB capacity            
+968251                                            CS - Up to 100 TB capacity                  
+968252                                            CS - 100.1 TB to 250 TB capacity            
+968253                                            CS - 250.1 TB to 500 TB capacity            
+968300                      N                     zsS - Active                                
+968351                                            zsS - Up to 100 TB capacity                 
+968352                                            zsS - 100.1 TB to 250 TB capacity           
+968353                                            zsS - 250.1 TB to 500 TB capacity           
+013PROPOSED CONFIGURATION                                                            
+10                                                                                   
+060135001MDDIBM_PHYSEL:swn_siu:swn_siu:SN1^4^14^swn_siu^swn_siu_wizard^TRUE^IBM_PLATFORM^1^All^SW_TYPE^1^All^SW_MODEL^2^^pSeries or RS^
+265334 985    10003       10241       10804       10934       11050       21063       11103       11140       11150       11303       21600       21613       51699       11882       13453       84328       14424       18151      108152      108153       98251      108252      108253       98300       18351      108352      108353       9AGAC       1
+05         10  1Physical Disk Capacity (non-CoD) = 460.800 TB               
+05         10  1Base Function(BF) License = 475 TB                          
+05         10  1Copy Services(CS) License = 475 TB                          
+05         10  1zSynergy Services(zsS) License = 475 TB                     
+955334985          SN1      000000000            T           1                    20170616              1                                     DS8886                                      
+061592001MDDIBM_PHYSEL_SELECTIONS:1:ssd_lfa_mtm_iteration_panel^3^cfgwiz_leave_panel_event^24^ssd_system_component^IBM_PHYSEL_SELECTIONS:1:ssd_expansion_mtm_iteration_panel^3^cfgwiz_leave_panel_event^20^ssd_lfa_mtm_iteration_panel^IBM_PHYSEL_SELECTIONS:1:ssd_ds888x_product_panel^3^cfgwiz_leave_panel_event^16^ssd_expansion_mtm_iteration_panel^IBM_PHYSEL_SELECTIONS:1:ssd_ds888x_base_wizard^4^initialize_event^cfgwiz_update_configuration_event^14^25^IBM_PHYSEL:ssd_mtm_5334_985:SBO_DASD_SSD:0000000:ssd_mtm_5334_985:SN1^4^1^ssd_mtm_5334_985^ssd_ds888x_base_wizard^FALSE^ibm_id_S^1^SSD_DS888X_Base_MTM 0x283EB030 [ssd_mtm_5334_985]^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_Leaf_Category 0x2EA79310 [SBO_DASD_SSD]^SSD_RECOMMENDED_PANEL_VISIT_MESSAGE_READ^1^TRUE^SERVICE_INTEGRATOR_RELATED_HW^1^5334985-1-2^SB_RELATED_HW^1^5334985-1-2^IBM_MTM_CONTEXTS_MC^12^ssd_mtm_533x_985^ssd_base_mtm^ssd_base_position^ssd_283x_0241^ssd_mtm_5334_985^ibm_region_emea^ibm_country_united_kingdom^ibm_MES^ssd_283x_1882^ssd_283x_4424^ssd_283x_4328^ssd_single_phase_line_cord^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^28^1^1^1^1^2^1^1^1^1^2^5^2^1^1^8^1^1^10^10^7^10^10^7^10^10^7^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^28^ssd_283x_0003^ssd_283x_0241^ssd_283x_0804^ssd_283x_0934^ssd_283x_1050^ssd_283x_1063^ssd_283x_1103^ssd_283x_1150^ssd_283x_1140^ssd_283x_1303^ssd_283x_1613^ssd_283x_1600^ssd_283x_1699^ssd_283x_1882^ssd_283x_3453^ssd_283x_4424^ssd_283x_4328^ssd_283x_8152^ssd_283x_8151^ssd_283x_8153^ssd_283x_8252^ssd_283x_8251^ssd_283x_8253^ssd_283x_8352^ssd_283x_8351^ssd_283x_8353^ssd_283x_8300^ssd_283x_AGAC^
+060034001BED1^1^2D0A0500^2D0A0500^
+960003                      N                     8xE factory merge                           
+960241                      N                     98x - 8xE position 1                        
+960804                      N                     250.1 TB to 500 TB capacity                 
+960934                      N                     IBM System z indicator                      
+961050                                            Single phase DC-UPS                         
+961063                                            SPP cord, 200-240V, 63A, no connector       
+961103                                            Kick Step                                   
+961140                                            Mgmt console - Primary                      
+961150                                            Mgmt console - Secondary                    
+961303                                            I/O enclosure pair PCIe G3                  
+961600                                            High Performance Flash Enclosure Gen2 pair  
+961613                                            3200 GB 2.5-inch flash card set             
+961699                                            Flash enclosure filler set                  
+961882                                            DS8000 LMC R8.2                             
+963453                                            16 Gb 4 port LW FCP/FICON adapter PCIE      
+964328                                            2 TB Processor memory (24-core only)        
+964424                                            24-core processor indicator                 
+968151                      N                     BF - Up to 100 TB capacity                  
+968152                      N                     BF - 100.1 TB to 250 TB capacity            
+968153                      N                     BF - 250.1 TB to 500 TB capacity            
+968251                      N                     CS - Up to 100 TB capacity                  
+968252                      N                     CS - 100.1 TB to 250 TB capacity            
+968253                      N                     CS - 250.1 TB to 500 TB capacity            
+968300                      N                     zsS - Active                                
+968351                      N                     zsS - Up to 100 TB capacity                 
+968352                      N                     zsS - 100.1 TB to 250 TB capacity           
+968353                      N                     zsS - 250.1 TB to 500 TB capacity           
+96AGAC                                            Shipping and handling 985                   
+265334 85E    10003       10241       10804       10934       11050       21063       11303       21600       21613       41699       21982       11999       13453       8AGAD       1
+95533485E          SN2      000000000            T           0                    20170616                                                    DS8886 Expansion Unit                       
+061060001MDDIBM_PHYSEL_SELECTIONS:2:ssd_ds888x_drives_panel^3^cfgwiz_leave_panel_event^19^ssd_expansion_mtm_iteration_panel^IBM_PHYSEL_SELECTIONS:2:ssd_ds888x_product_panel^3^cfgwiz_leave_panel_event^17^ssd_ds888x_drives_panel^IBM_PHYSEL_SELECTIONS:2:ssd_flash_table^3^ssd_283x_1613^18^4^IBM_PHYSEL:ssd_mtm_5334_85E:SBO_DASD_SSD:0000000:ssd_mtm_5334_985:SN1:ssd_mtm_5334_85E:SN2^4^2^ssd_mtm_5334_85E^ssd_ds888x_expansion_wizard^FALSE^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_DS888X_Base_MTM 0x283EB030 [ssd_mtm_5334_985]^SERVICE_INTEGRATOR_RELATED_HW^1^533485E-1-3^SB_RELATED_HW^1^533485E-1-3^IBM_MTM_CONTEXTS_MC^9^ssd_mtm_533x_85E^ssd_expansion_mtm^ssd_283x_0241^ssd_mtm_5334_85E^ssd_expansion_position_1^ibm_region_emea^ibm_country_united_kingdom^ibm_MES^ssd_single_phase_line_cord^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^12^1^1^1^1^2^1^2^4^1^1^8^1^SSD_MTM_EXPLICIT_SELECTION_MC^12^ssd_283x_0003^ssd_283x_0241^ssd_283x_0804^ssd_283x_0934^ssd_283x_1050^ssd_283x_1063^ssd_283x_1303^ssd_283x_1613^ssd_283x_1600^ssd_283x_1982^ssd_283x_3453^ssd_283x_AGAD^
+060034001BED1^2^27A76F48^27A76F48^
+960003                      N                     8xE factory merge                           
+960241                      N                     98x - 8xE position 1                        
+960804                      N                     250.1 TB to 500 TB capacity                 
+960934                      N                     IBM System z indicator                      
+961050                                            Single phase DC-UPS                         
+961063                                            SPP cord, 200-240V, 63A, no connector       
+961303                                            I/O enclosure pair PCIe G3                  
+961600                                            High Performance Flash Enclosure Gen2 pair  
+961613                                            3200 GB 2.5-inch flash card set             
+961699                                            Flash enclosure filler set                  
+961982                      N                     DS8000 LMC R8.2 indicator                   
+961999                                            Hardware installation MES                   
+963453                                            16 Gb 4 port LW FCP/FICON adapter PCIE      
+96AGAD                                            Shipping and handling 85E                   
+269049 FF8    10934       18151      108152      108153       98251      108252      108253       98300       18351      108352      108353       9
+959049FF8          SN3      000000000            T           0                    20170616                                                    DS8000 series Function Authorization        
+061033001MDDIBM_PHYSEL_SELECTIONS:3:ssd_ds888x_lfa_product_panel^3^cfgwiz_leave_panel_event^23^ssd_lfa_mtm_iteration_panel^IBM_PHYSEL_SELECTIONS:3:ssd_lfa_table^6^ssd_lfa_copy_services_license_quantity^ssd_lfa_zsynergy_services_license_quantity^21^22^461^461^IBM_PHYSEL:ssd_mtm_9049_FF8:SBO_DASD_SSD:0000000:ssd_mtm_5334_985:SN1:ssd_mtm_9049_FF8:SN3^4^3^ssd_mtm_9049_FF8^ssd_ds888x_lfa_wizard^FALSE^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_DS888X_Base_MTM 0x283EB030 [ssd_mtm_5334_985]^SERVICE_INTEGRATOR_RELATED_HW^1^9049FF8-1-4^SB_RELATED_HW^1^9049FF8-1-4^IBM_MTM_CONTEXTS_MC^6^ssd_mtm_904x_FF8^ssd_lfa_mtm^ssd_mtm_9049_FF8^ibm_region_emea^ibm_country_united_kingdom^ibm_MES^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^13^10^10^7^10^10^7^10^10^7^1^1^461^461^SSD_MTM_EXPLICIT_SELECTION_MC^13^ssd_2836_8152^ssd_2836_8151^ssd_2836_8153^ssd_2836_8252^ssd_2836_8251^ssd_2836_8253^ssd_2836_8352^ssd_2836_8351^ssd_2836_8353^ssd_2836_8300^ssd_2836_0934^ssd_lfa_copy_services_license_quantity^ssd_lfa_zsynergy_services_license_quantity^
+060034001BED1^3^27A72050^27A72050^
+960934                      N                     IBM System z indicator                      
+968151                                            BF - Up to 100 TB capacity                  
+968152                                            BF - 100.1 TB to 250 TB capacity            
+968153                                            BF - 250.1 TB to 500 TB capacity            
+968251                                            CS - Up to 100 TB capacity                  
+968252                                            CS - 100.1 TB to 250 TB capacity            
+968253                                            CS - 250.1 TB to 500 TB capacity            
+968300                      N                     zsS - Active                                
+968351                                            zsS - Up to 100 TB capacity                 
+968352                                            zsS - 100.1 TB to 250 TB capacity           
+968353                                            zsS - 250.1 TB to 500 TB capacity           
+014ORDER TRANSACTIONS                                                                
+195334985       48153       218253       218353       21
+955334985          SN1      000000000            T           1                    20170616                                                    DS8886                                      
+968153                      N                     BF - 250.1 TB to 500 TB capacity            
+968253                      N                     CS - 250.1 TB to 500 TB capacity            
+968353                      N                     zsS - 250.1 TB to 500 TB capacity           
+19533485E       41600       111613       111699       211999       11
+95533485E          SN2      000000000            T           0                    20170616                                                    DS8886 Expansion Unit                       
+961600                                            High Performance Flash Enclosure Gen2 pair  
+961613                                            3200 GB 2.5-inch flash card set             
+961699                                            Flash enclosure filler set                  
+961999                                            Hardware installation MES                   
+199049FF8       48153       218253       218353       21
+959049FF8          SN3      000000000            T           0                    20170616                                                    DS8000 series Function Authorization        
+968153                                            BF - 250.1 TB to 500 TB capacity            
+968253                                            CS - 250.1 TB to 500 TB capacity            
+968353                                            zsS - 250.1 TB to 500 TB capacity           
+98  165
+991450889264

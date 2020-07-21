@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<!-- General Locators for EPRICER Application-->
+
+<!-- Start:  Login Screen -->
+<EPRICERLinksPage>//div[contains(text(),'ePricer India Lab Build machine')]</EPRICERLinksPage>
+<EPRICERLink>//a[@href='https://inmbzp4174.in.dst.ibm.com/services/epricer/v2/ibm/']</EPRICERLink>
+
+<IBMPreSalesAdvisorScreen>//input[@id='ctl00_MainContent_buttonPSATLogin']</IBMPreSalesAdvisorScreen>
+<SignInToIBMScreen>//a[@id='continuebutton']</SignInToIBMScreen>
+
+
+<UserName>//input[@id='ctl00_MainContent_LoginMain_UserName']</UserName> 
+<Password>//input[@id='ctl00_MainContent_LoginMain_Password']</Password>
+<LoginButton>//input[@id='ctl00_MainContent_LoginMain_ButtonLogin']</LoginButton>
+
+<!-- End:  Login Screen -->
+
+<!-- Start:  ByPass -->
+<ByPassPCS>.//*[@id='P']</ByPassPCS>
+<ByPassPCSdisrole>.//*[@id='bpType_dist']</ByPassPCSdisrole>
+<ByPassData>.//*[@id='data']</ByPassData>
+<ByPassePricergo>html/body/form/input[4]</ByPassePricergo>
+
+<!-- End:  ByPass -->
+
+<EPRICERLinkLoginButton>//'html/body/form/div[4]/div/div/div[2]/input'</EPRICERLinkLoginButton>
+
+
+<EPricerGoTab>//span[contains(text(),'EPricer Go')]</EPricerGoTab>
+<EPricerGoTestScreen>//h1[contains(text(),'ePricer Go Test')]</EPricerGoTestScreen>
+
+<SelectButton>//span[@id='ctl00_MainContent_CompanySelector1_ButtonSelect_LabelDisplayText']</SelectButton>
+
+<ContactPhone>//input[@id='ctl00_MainContent_TBContactPhone']</ContactPhone>
+<ContactEmail>//input[@id='ctl00_MainContent_TBContactEmail']</ContactEmail>
+<IBMUniqueID>//input[@id='ctl00_MainContent_TBUniqueId']</IBMUniqueID>
+
+<GenerateXMLButton>//input[@id='ctl00_MainContent_BGenerate']</GenerateXMLButton>
+<XmlCheck>//textarea[@id='ctl00_MainContent_TBOut']</XmlCheck>
+
+<SendXMLButton>//input[@id='ctl00_MainContent_ButtonSend']</SendXMLButton>
+
+<IBMidUserName>.//*[@id='username']</IBMidUserName>
+<IBMidPwd>.//*[@type='password']</IBMidPwd>
+<SubmitButton>.//*[@type="submit"]</SubmitButton>
+
+<HomePage>//div[contains(text(),'Welcome to ePricer')]</HomePage>
+<EpricerLogoScreen>//img[@src='img/logo_white.png']</EpricerLogoScreen>
+
+<CreateANewQuoteLink>//a[contains(text(),'Create a new quote')]</CreateANewQuoteLink>
+<MyQuotesLink>//*[@title='View/update your own quotes']</MyQuotesLink>
+<MyQuotesPageExists>//span[contains(text(),'Quote Id')]</MyQuotesPageExists>
+
+<OverviewPolygon>.//*[contains(text(),'Overview')]</OverviewPolygon>
+<SelectCountry>.//*[@title='Select Country']</SelectCountry>
+<QuoteTitle>//input[@title='Quote title']</QuoteTitle>
+<SelectBidType>//select[@name='Select bid type']</SelectBidType>
+<CRAD>//input[@title='Customer requested arrival date (CRAD) *']</CRAD>
+<CRADIVT>//input[@title='Customer requested arrival date (CRAD) *']</CRADIVT>
+<SaveOverviewButton>//strong[contains(text(),'Save')]</SaveOverviewButton>
+
+<ManageConfigurationPolygon>.//*[contains(text(),'Manage configuration')]</ManageConfigurationPolygon>
+<SubmitPriceRequestPolygon>.//*[contains(text(),'Submit price request')]</SubmitPriceRequestPolygon>
+<AddProductManuallyButton>//span[contains(text(),'Add product manually')]</AddProductManuallyButton>
+
+<SelectCategorySelected>//select[@name='categoryselected']</SelectCategorySelected>
+<TypeModelField1>//input[@id='type']</TypeModelField1>
+<TypeModelField2>//input[@id='model']</TypeModelField2>
+<ComponentQuantity>//input[@id='componentquantity']</ComponentQuantity>
+<AddButton>//span[contains(text(),'Add')]</AddButton>
+<AddBTN>//span[@translate='Add']</AddBTN>
+<CloseBTN>//div[@class='ngdialog-close']</CloseBTN>
+<AddAndCloseButton>//span[contains(text(),'Add and close')]</AddAndCloseButton>
+<ComponentAddedSuccessMsg>//span[contains(text(),'Component added successfully.')]</ComponentAddedSuccessMsg>
+<DropDownFeatureButtonManageConfig>.//*[@class='icon icon-circle-right']</DropDownFeatureButtonManageConfig>
+<FeatureQuantiyFieldManageConfig>.//*[@title="Quantity"]</FeatureQuantiyFieldManageConfig>
+<Feature1CheckBox>//input[@id='chckBoxProductCode_com0_0']</Feature1CheckBox>
+
+<CollectPricingButton>//span[contains(text(),'Collect pricing')]</CollectPricingButton>
+<PricingValue>//td[contains(text(),'Total')]//following-sibling::td[3]</PricingValue>
+
+<RegistrationCustomerPolygon>.//*[contains(text(),'Registration')]</RegistrationCustomerPolygon>
+<RegistrationNumber>//input[@type="text" and @list="drs"]</RegistrationNumber>
+
+<SearchCustomer>//span[contains(text(),'Search Customer')]</SearchCustomer>
+<SearchCustomerSelected>//select[@title='customername']</SearchCustomerSelected>		
+<SearchCustomerName>//input[@type="text" and @title="name"]</SearchCustomerName>		
+<SearchCustomerButton>//span[contains(text(),'Search Customer')]</SearchCustomerButton>		
+<CustomerNumber>//input[@title="selectcustomers" and @name="selectedPG"]</CustomerNumber>		
+<FinalSelectCustomer>//strong[contains(text(),'Select Customer')]</FinalSelectCustomer>		
+<CEID>//input[@name='sp2bpceid']</CEID>		
+<BPCompanyName>//input[@id='bpCompanyName']</BPCompanyName>
+
+<RetrieveButton>//strong[contains(text(),'Retrieve')]</RetrieveButton>
+
+<DetailsPricingPolygon>//*[contains(text(),'Details pricing')]</DetailsPricingPolygon>
+<PreviewValueSellerOfferButton>//strong[contains(text(),'Preview value seller offer')]</PreviewValueSellerOfferButton>
+
+<IBMBusinessPartnerValueSellerScreen>//h2[contains(text(),'IBM Business Partner Value Seller Offer')]</IBMBusinessPartnerValueSellerScreen>
+<CloseIBMBusinessPartnerValueSellerScreenBtn>//div[@class='ngdialog-close']</CloseIBMBusinessPartnerValueSellerScreenBtn>
+
+<ListPriceTotalValue>//input[@id='listpricetotal']</ListPriceTotalValue>
+<AcceptValueSellerOfferButton>//strong[contains(text(),'Accept value seller offer')]</AcceptValueSellerOfferButton>
+<RequesttValueSellerOfferButton>//strong[contains(text(),'Request value seller offer')]</RequesttValueSellerOfferButton>
+
+<ViewQuoteDataTab>//a[contains(text(),'View quote data')]</ViewQuoteDataTab>
+<ValueSellerApprovedStatus>//span[contains(text(),'Value seller approved')]</ValueSellerApprovedStatus>
+
+<QuoteDetailHeading>//h2[contains(text(),'Quote detail')]</QuoteDetailHeading>
+<RegistrationHeading>//h2[contains(text(),'Registration')]</RegistrationHeading>
+<EndUserCustomerHeading>//h2[contains(text(),'End user customer')]</EndUserCustomerHeading>
+<ChannelInformationHeading>//h2[contains(text(),'Channel Information')]</ChannelInformationHeading>
+<ProductsAndPricesHeading>//h2[contains(text(),'Products and prices')]</ProductsAndPricesHeading>
+
+<AddendumTab>//a[contains(text(),'Addendum')]</AddendumTab>
+<BrandTab>//th[contains(text(),'Brand')]</BrandTab>
+
+<EditAddendumButton>//strong[contains(text(),'Edit Addendum')]</EditAddendumButton>
+<BrandCheckbox>//input[@id='check17']</BrandCheckbox>
+
+<CancelAndCloseButton>//strong[contains(text(),'Cancel and close')]</CancelAndCloseButton>
+<CancelAndCloseButton2>//input[@id='cancleComponenttrue_1']</CancelAndCloseButton2>
+
+<SendAddendumButton>//strong[contains(text(),'Send Addendum')]</SendAddendumButton>
+<SendValueSellerAddendumScreen>//strong[contains(text(),'Send value seller addendum')]</SendValueSellerAddendumScreen>
+<AddToListMailId>//div[@role='alertdialog']//following::input[@title='AddToList']</AddToListMailId>
+<MailBody>//*[@id='tinymce']</MailBody>
+<SendMailButton>//strong[@translate='send']</SendMailButton>
+
+
+<StartButton>//strong[contains(text(),'Start')]</StartButton>
+<SelectARole>//select[@name='SelectARole']</SelectARole>
+<DashboardLink>//a[contains(text(),'Dashboard')]</DashboardLink>
+<CreateQuoteLink>//a[contains(text(),'Create quote')]</CreateQuoteLink> 
+
+<SearchQuote>//a[@title='Find quotes using text search and criteria selection']</SearchQuote>
+<SearchButton>//a[title='Search']</SearchButton>
+<SearchField>//input[@type="text" and @title="Enter quoteid(s)"]</SearchField>		
+<SelectQuoteCheckBox>//input[@title='Check Box']</SelectQuoteCheckBox>		
+<GoButton>//a[title='GO']</GoButton>		
+<GoBackButton>//strong[contains(text(),'Go back')]</GoBackButton>		
+<CheckBox>//input[@title='If any of the quotes meet the search criteria, open them directly']</CheckBox>		
+<QuoteActionsDropDown>//select[@name='quoteAction']</QuoteActionsDropDown>
+<!--End TestCase 4 SearchScreen-->
+
+<FeatureRPQField>//input[@name='feature-rpq-manual']</FeatureRPQField>		
+<QuantityField>//input[@name='quantitymanual']</QuantityField>		
+<AddNewFeatureButton>//a[@id='addfeatureproductManually']</AddNewFeatureButton>		
+<SelectFeatureCheckBox>//input[@name='selectedProducts' and @id='chckBoxSelectAll']</SelectFeatureCheckBox>		
+<AddNCloseButton>//a[@id='addComponenttrue']</AddNCloseButton>	<UploadCFRButton>.//*[@id='ibm-columns-main']/div/div[2]/div/div/quoteedit-page/div/div/div/quoteconfiguration-page/div/div[2]/div/div[2]/div[2]/div[2]/button[1]"</UploadCFRButton>		
+<DisableChecksumBox>//input[@title="Disable Checksum"]</DisableChecksumBox>		
+<OtherCountryCFRCheckBox>//input[@title="Work with other country CFR"]</OtherCountryCFRCheckBox>		
+<ChooseFileButton>.//input[contains(@title,'Upload file')]"</ChooseFileButton>		
+<updateQuantity1>//input[@title='Quantity']</updateQuantity1>		
+<DownArrowButton>//span[contains(text(),'Search Customer')]</DownArrowButton>		
+<ViewAndEditConfiguration>//strong[contains(text(),'View/Edit configuration')]</ViewAndEditConfiguration>	
+<FeatureCheckBoxUpdateQuantity>//input[@id='chckBoxFeatureCode3-1']</FeatureCheckBoxUpdateQuantity>		
+<UpdateQuantityButton>//span[contains(text(),'Update quantity')]</UpdateQuantityButton>		
+<CFRSelectCheckBox>//input[@title='Check Box' and @id='chckBoxProductCode0']</CFRSelectCheckBox>
+
+<!--  Search a quote -->
+<SearchQuotesLink>//a[contains(text(),'Search quotes')]</SearchQuotesLink> 
+<SearchQuotesScreen>//*[@translate="Search_Quotes"]</SearchQuotesScreen> 
+<SearchCriteriaSelect>//select[@title='Search Criteria']</SearchCriteriaSelect>
+<EnterQuoteid>//input[@title='Enter quoteid(s)']</EnterQuoteid>
+<SearchQuoteButton>//span[contains(text(),'Search')]</SearchQuoteButton>
+<SP2CEIDSeachQuoteScreen>//input[@title='Enter sp2bpceid']</SP2CEIDSeachQuoteScreen>
+<EnterSP2CIED>//input[@title='Enter sp2bpceid'</EnterSP2CIED>
+
+<Searchquotetypeall>.//*[@title='Select all quotes']</Searchquotetypeall>
+<Searchquotetypeinternal>.//*[@title='Select an Internal Quote']</Searchquotetypeinternal>
+<Searchquotetypebp>.//*[@title='Select BP quote']</Searchquotetypebp>
+
+<SearchedQuote>//div[@class="jsclosurestablabel ng-binding"]</SearchedQuote>
+<SelectBidType>//select[@name='Select bid type']</SelectBidType>
+<ComponentCheckbox>//input[@id='chckBoxProductCode_com0']</ComponentCheckbox>
+<QuantityUpdate>//input[@title='Quantity' and @class='input-control focusedBlue ng-pristine ng-valid ng-valid-maxlength ng-touched']</QuantityUpdate>
+
+ 
+<AddFeatureBtn>//span[contains(text(),'Add feature(s)/RPQ(s) to component(s)')]</AddFeatureBtn>
+<AddFeatureRPQManually>//h2[contains(text(),'Add feature/RPQ manually')]</AddFeatureRPQManually>
+ 
+ 
+<UploadFileBtn>//input[@title="Upload file"]</UploadFileBtn>
+<DisableChecksumChkbox>//input[@id="cfrsort"]</DisableChecksumChkbox>
+<WorkWithOtherCountryCFRChkbox>//input[@id="cfrsort1"]</WorkWithOtherCountryCFRChkbox>
+<UploadCFRBtn>//span[@translate="Upload_CFR(s)"]</UploadCFRBtn>
+<UploadCFRBtnDEV>//span[@translate="Upload_CFR/CFXML(s)"]</UploadCFRBtnDEV>
+<DownloadThisCFRIcon>//span[@title="Click here to download this CFR"]</DownloadThisCFRIcon>
+
+
+<RequestPriceeExceptionChkbox>//input[@id='requestpriceexception']</RequestPriceeExceptionChkbox>
+<SubmitPriceRequestBtn>.//*[contains(text(),'Submit price request') and @translate='Submit_Price_Request']</SubmitPriceRequestBtn>
+<SubmitPriceRequestScreen>.//*[contains(text(),'Submit price request')]</SubmitPriceRequestScreen>
+<GeneralInfoTab>.//*[contains(text(),'General Info')]</GeneralInfoTab>
+<IBMChannelInfoTab>.//*[contains(text(),'IBM Channel Info')]</IBMChannelInfoTab>
+<RequestPricingTab>.//*[contains(text(),'Request Pricing')]</RequestPricingTab>
+<RequestedEndUserDiscount>//input[@name='requestedenduserdiscount']</RequestedEndUserDiscount>
+<ApplyRequestedEndUserDiscountBtn>//span[contains(text(),'Apply')]</ApplyRequestedEndUserDiscountBtn>
+<JustificationAttachmentsTab>.//*[contains(text(),'Justification / Attachments')]</JustificationAttachmentsTab>
+<AdditionalQuestionsTab>.//*[contains(text(),'
+	       			Additional questions
+	       		')]</AdditionalQuestionsTab>
+
+<CommentsSection>.//*[@id='tinymce']</CommentsSection>
+<SubmitAndSendNotificationBtn>//span[contains(text(),'Submit and send notification')]</SubmitAndSendNotificationBtn>
+
+<SendNotificationScreen>//*[contains(text(),'Send Notification')]</SendNotificationScreen>
+<ToEmailID>//input[@title='Display Selected Add TO List']</ToEmailID>
+<sendMailBtn>//strong[contains(text(),'Send')]</sendMailBtn>
+
+<QuoteId>//div[@translate='Quote_Id'] / following::div[@class='col-md-2 ng-binding']</QuoteId>
+<MyQuotesScreen>//p[@translate="My_Quotes"]</MyQuotesScreen>
+
+<IBMGuiScreen>//img[@src='img/logo_white.png']</IBMGuiScreen>
+
+<SearchQuoteResultScreen>//*[contains(text(),'BP Information')]</SearchQuoteResultScreen>
+<OnHoldStatus>//span[contains(text(),'On hold')] / following::div[@class='col-md-4 ng-scope']</OnHoldStatus>
+<RequestPricingStatus>//span[contains(text(),'Request pricing')] / following::div[@class='col-md-4 ng-scope']</RequestPricingStatus>
+<CommentsStatusTab>//*[contains(text(),'Comments/Status')]</CommentsStatusTab>
+<CommentsStatusScreen>//h4[contains(text(),'Enter your comments')]</CommentsStatusScreen>
+
+<ChangeStatusRadioBtn>//input[@title='Change status']</ChangeStatusRadioBtn>
+<SelectSelectedStatusDD>//select[@name='selectedStatus' and @title="Selected Status is"]</SelectSelectedStatusDD>
+<CommentsStatusApplyBtn>//*[@translate='Apply']</CommentsStatusApplyBtn>
+<CommentsStatusUpdated>//*[contains(text(),'User ID')]</CommentsStatusUpdated>
+<IncompleteStatusOfQuote>//*[contains(text(),'Incomplete')] / following::div[@class='col-md-4 ng-scope']</IncompleteStatusOfQuote>
+
+<CommentsTab>//li[@class='jsclosurestab ng-scope'] / following::div[contains(text(),'Comments')]</CommentsTab>
+<IncompleteCommentsHeading>//*[@translate="Incomplete Comments"]</IncompleteCommentsHeading>
+<IncompleteCommentsOnHeading>//*[@translate="Comments_for_incomplete_quote_on"]</IncompleteCommentsOnHeading>
+ 
+<ValueSellerApprovedHeading>//span[contains(text(),'Value seller approved') and @class="text-right text-success ng-binding"]</ValueSellerApprovedHeading>
+<SubmitToDistributorBotton>//span[contains(text(),'Submit to distributor')]</SubmitToDistributorBotton>
+<ReturnToRequestor>//*[@title='Return to requester']</ReturnToRequestor>
+<ReturnToDistributorButton>//span[@class='ibm-reset-link']</ReturnToDistributorButton>
+<ManageConfigurationTab>.//*[contains(text(),'Manage configuration')]</ManageConfigurationTab>	
+<DropDownFeatureButton>.//*[class="icon icon-circle-down ng-hide"]</DropDownFeatureButton>
+<SubmitOnSubmitPriceRequest>//button[@value='submitbutton' and @name='Submit']</SubmitOnSubmitPriceRequest>
+
+<RemoveFromHoldRadioBtn>//input[@id='commentsIdRfh']</RemoveFromHoldRadioBtn>
+<TotalBPMargin>//input[@id='totmargin']</TotalBPMargin>
+<ApplyBPMargin>//button[contains(@data-ng-click,'applyBPMargin')]</ApplyBPMargin>
+
+<PricingTabIbmGui>//a[contains(text(),'Pricing')]</PricingTabIbmGui>
+<ApprovalTabIbmGui>//a[contains(text(),'Approval')]</ApprovalTabIbmGui>
+<ApprovalSectionScreenIBMGui>//span[contains(text(),'Approval section')]</ApprovalSectionScreenIBMGui>
+<ApproveRadioBtnIbmGui>//input[@id='approvalCode_approve']</ApproveRadioBtnIbmGui>
+<RequestPricingStatusIbmGui>//*[contains(text(),'Request pricing')] / following::div[@class='col-md-4 ng-scope']</RequestPricingStatusIbmGui>
+<SubmitApprovalIbmGui>//strong[@translate="Submit"]</SubmitApprovalIbmGui>
+<IBMApprovedStatus>//*[contains(text(),'IBM approved')] / following::div[@class='col-md-4 ng-scope']</IBMApprovedStatus>
+<IBMWithdrawRadio>//input[@id='approvalCode_reject'}</IBMWithdrawRadio>
+<BPWithrawDropBox>//select[@title="Reason Code"]</BPWithrawDropBox>
+
+<MulticheckBox>//input[@id="multicheck"]</MulticheckBox>
+<CheckBoxForDuplicatingQuote>//a[@class='ng-binding ng-scope']/preceding::input[@title="Check Box"]</CheckBoxForDuplicatingQuote>
+<QuoteActionDD>//select[@name="quoteAction"]</QuoteActionDD>
+<DuplicatingQuoteGoBtn>//span[@translate="search_screen_go"]</DuplicatingQuoteGoBtn>
+
+<SearchCriteriaSelectIBMGui>//select[@title="quoteid"]</SearchCriteriaSelectIBMGui>
+
+<AddManualComponentBtn>//a[@id='addComponentfalse']</AddManualComponentBtn>
+
+<!-- PCS log in start -->
+<SelectedCountryforPCS>//*[@id='lbl_country']</SelectedCountryforPCS>
+<PCSContinuebutton>.//*[@id='selectApplicationCommand']/table/tbody/tr[8]/td/p/input</PCSContinuebutton>
+<PCSContinuebutton1>.//*[@id='continue-button']</PCSContinuebutton1>
+<MaintLink>.//*[contains(text(),'ePricer Rewrite CDT Maint ')]</MaintLink>
+<DevLink>.//*[contains(text(),'ePricer Rewrite CDT Dev')]</DevLink>
+<PRODLink>.//*[contains(text(),'e-Pricer')]</PRODLink>
+<IVTLink>.//*[contains(text(),'ePricer Rewrite IVT')]</IVTLink>
+
+<PCSSignout>.//*[@id='returnToPcs']/span</PCSSignout>
+         
+         
+<!-- PCS log in end -->
+<!-- PCS  -->
+<Countryonoverview>.//select[contains(@name,'Select Country')]</Countryonoverview>
+<bidtypeonoverview>.//select[contains(@title,'Select bid type')]</bidtypeonoverview>
+<PCSRegistrationNumber>.//*[@id='x.id_0']</PCSRegistrationNumber>
+<PCSRetrieveButton>.//button[contains(@data-ng-click,'validateAndApplyDealReg(currentQuote.quoteCustomer.agreementapproval,seldealregnumber)')]</PCSRetrieveButton>
+<PCSSearchcustomer>.//button[contains(@data-ng-click,'showPopupSearch')]</PCSSearchcustomer>
+<BPCRAD>.//*[@id='crad_V17tmp']</BPCRAD>
+<PCSDRcheckbox>.//*[@id='chckBoxRegCode0']</PCSDRcheckbox>
+<PCSDRremovebutton1>.//*[contains(@data-ng-click,'deleteRegNum()')]</PCSDRremovebutton1>
+<PCSDRremovebutton>.//*[@id='ibm-columns-main']/div/div[2]/div/div/quoteedit-page/div/div/div/quotecustomer-page/form/div[2]/div[3]/div/table/tbody/tr[2]/td/button[2]</PCSDRremovebutton>
+
+<PCSSearchcustomerid>.//*[@id='SearchFor']</PCSSearchcustomerid>
+<PCSSearchcustomersearchbutton>.//button[@data-ng-click='searchCustomer();']</PCSSearchcustomersearchbutton>
+<PCSSavecustomerbutton>.//button[@data-ng-click='saveCustomer();']</PCSSavecustomerbutton>
+<PCSBPContactName>.//*[@id='bpContactName']</PCSBPContactName>
+<PCSBPContactEmail>.//*[@id='bpContactEmail']</PCSBPContactEmail>
+<PCSBPCompanyName>.//*[@id='bpCompanyName']</PCSBPCompanyName>
+<PCSBPCompanyEmail>.//input[contains(@title,'BP Contact Email')]</PCSBPCompanyEmail>
+<PCSAcceptVSbutton>.//button[contains(@data-ng-click,'saveValueSellerBid')]</PCSAcceptVSbutton>
+<PCSRequestVSbutton>.//button[contains(@data-ng-click,'saveValueSellerBid(true)')]</PCSRequestVSbutton>
+<PCSSaveContinueREG>.//button[contains(@data-ng-click,'quoteStepList[3]')]</PCSSaveContinueREG>
+<PCSSaveContinueConfig>.//button[contains(@data-ng-click,'quoteStepList[2]')]</PCSSaveContinueConfig>
+<PCSMyQuotesLink>//*[contains(@title,'update your own quotes')]</PCSMyQuotesLink>
+<QuoteActiononMyquote>.//*[contains(@title,'update your own quotes')]</QuoteActiononMyquote>
+<PCSSearchCriteria>.//*[contains(@data-ng-change,'resetCriteriaValue')]</PCSSearchCriteria>
+<PCSSearchstatus>.//*[contains(@data-ng-options,'quoteStatuslists')]</PCSSearchstatus>
+<PCSSearchButton>.//*[@id='ibm-columns-main']/div/div[2]/div/div/quotesearch-page/div/div[2]/div[2]/table/tbody/tr/td[2]/a/strong/span</PCSSearchButton>
+<PCSSearchButton1>.//*[contains(@translate,'search')]</PCSSearchButton1>
+
+<PCSsearchedresult>.//*[@id='chckBoxPGCode0']</PCSsearchedresult>
+<PCSsearchQuoteaction>.//*[contains(@title,'Quote actions')]</PCSsearchQuoteaction>
+<PCSsearchGoButton>.//*[contains(@translate,'search_screen_go')]</PCSsearchGoButton>
+<PCSsearchquoteid>//input[@type="text" and @title="Enter quoteid(s)"]</PCSsearchquoteid>	
+<PCSgetquoteid>.//*[@id='currentquotetab']/li/div/div[1]</PCSgetquoteid>
+<PCSdetailpricingtab>.//*[text()='Details pricing']</PCSdetailpricingtab>
+<PCSoverviewtab>.//*[contains(text(),'Overview')]</PCSoverviewtab>
+<PCSpricesubmittab>.//*[text()='Submit price request']</PCSpricesubmittab>
+<PCSmanageconfigurationtab>.//*[contains(text(),'Manage configuration')]</PCSmanageconfigurationtab>>>>>
+<PCSreturntorequester>.//*[contains(@translate,'Return_to_requester')]</PCSreturntorequester>
+<PCSreturnbutton>.//*[contains(@data-ng-click,'returnToOriginator')]</PCSreturnbutton>
+<PCSmultilplecheck>//*[@id="multicheck"]</PCSmultilplecheck>
+<PCSgotosubmitSBquotepage>.//*[contains(@data-ng-click,'quoteStepList[4]')]</PCSgotosubmitSBquotepage>
+
+<PCSdecisionmakername>.//*[@id='decisionmakername']</PCSdecisionmakername>
+<PCSmakertitle>.//*[@id='decisionmakertitle']</PCSmakertitle>
+<PCSdecisionmakeremail>.//*[@id='decisionmakeremail']</PCSdecisionmakeremail>
+<PCSprojectname>.//*[@id='projectname']</PCSprojectname>
+<PCSIBMcontactname>.//*[@id='name']</PCSIBMcontactname>
+<PCSIBMphoneNumber>.//*[@id='phoneNumber']</PCSIBMphoneNumber>
+<PCSIBMenterContactEmail>.//*[@id='enterContactEmail']</PCSIBMenterContactEmail>
+<PCSsubmitSBquotebutton>.//*[@id='submit']</PCSsubmitSBquotebutton>
+<Name>.//*[@id='name']</Name>
+<Phonenumber>.//*[@id='phoneNumber']</Phonenumber>
+<PCS_ContactEmail>.//*[@name='enterContactEmail']</PCS_ContactEmail>
+<PCS_SubmitButton>.//*[@id='submit']</PCS_SubmitButton>
+<DecisionMakerName>.//*[@id='decisionmakername']</DecisionMakerName>
+<DecisionMakerEmail>.//*[@id='decisionmakeremail']</DecisionMakerEmail>
+<DecisionMakerTitle>.//*[@id='decisionmakertitle']</DecisionMakerTitle>
+<ProjectName>.//*[@id='projectname']</ProjectName>
+
+<Entercustomernameonduplicate>.//*[contains(@title,'eucustomername')]</Entercustomernameonduplicate>
+<!-- end PCS  -->
+
+
+<!-- Start PSAT JP -->
+<buttonPSATLogin>.//*[@id='ctl00_MainContent_buttonPSATLogin']</buttonPSATLogin>
+<buttonPSATSignin>.//*[@id='ctl00_MainContent_LoginMain_ButtonLogin']</buttonPSATSignin>
+                          
+                           
+<LoginMainUserName>.//*[@id='ctl00_MainContent_LoginMain_UserName']</LoginMainUserName>
+<LoginMainPassword>.//*[@id='ctl00_MainContent_LoginMain_Password']</LoginMainPassword>
+<epricerGObutton>.//*[@id='ctl00_FeaturedContent_Label1']</epricerGObutton>
+<countryselectdropdownlist>.//*[@id='ctl00_MainContent_CompanySelector1_DropDownListCountry']</countryselectdropdownlist>
+<companyselectdropdownlist>.//*[@id='ctl00_MainContent_CompanySelector1_DropDownListCompany']</companyselectdropdownlist>
+<countryselectbutton>.//*[@id='ctl00_MainContent_CompanySelector1_ButtonSelect_LabelDisplayText']</countryselectbutton>
+
+<XMLphone>.//*[@id='ctl00_MainContent_TBContactPhone']</XMLphone>
+<XMLemail>.//*[@id='ctl00_MainContent_TBContactEmail']</XMLemail>
+<XMLuniqueid>.//*[@id='ctl00_MainContent_TBUniqueId']</XMLuniqueid>
+<generateXMLbutton>.//*[@id='ctl00_MainContent_BGenerate']</generateXMLbutton>
+<sendXMLbutton>.//*[@id='ctl00_MainContent_ButtonSend']</sendXMLbutton>
+
+<PSATIBMIDname>.//*[@id='username']</PSATIBMIDname>
+<PSATIBMIDpassword>.//*[@id='password']</PSATIBMIDpassword>
+<PSATIBMIDcontinuebutton>.//*[@id="continue-button"]</PSATIBMIDcontinuebutton>
+<IBMIDconfirmproceedbutton>.//*[@id='confirm-btn']</IBMIDconfirmproceedbutton>
+<PSATIBMIDsigninbutton>.//*[@id='signinbutton']</PSATIBMIDsigninbutton>
+
+<PSATGroup>.//*[contains(@name,'SelectARole')]</PSATGroup>
+<PSATGrouplaunchbutton>.//*[contains(@data-ng-click,'selectGroup();')]</PSATGrouplaunchbutton>
+
+<PSATofferdropdown>.//*[contains(@name,'SelectARole')]</PSATofferdropdown>
+<PSATapplyoffer>.//*[contains(@data-ng-click,'selectGroup();')]</PSATapplyoffer>
+
+<PSATDisablecliplevelcheck>.//*[@id='requestpriceexception']</PSATDisablecliplevelcheck>
+<PSATSubmitpricerequestbutton>.//*[contains(@data-ng-click,'quoteStepList[4]')]</PSATSubmitpricerequestbutton>
+<PSATrequestexceptioncheckbox>.//*[@id='requestpriceexception']</PSATrequestexceptioncheckbox>
+
+<PSATdiscountinputtext>.//*[@name='requestedenduserdiscount']</PSATdiscountinputtext>
+<PSATdiscountapplybutton>.//*[contains(@data-ng-click,'applyRequestPricing')]</PSATdiscountapplybutton>
+<PSATchannelinfoname>.//*[@id='channelinfoname']</PSATchannelinfoname>
+<PSATchannelinfophone>.//*[@id='channelinfophone']</PSATchannelinfophone>
+<PSATchannelinfoemail>.//*[@id='channelinfointernetid']</PSATchannelinfoemail>
+<PSATrequestsubmitbutton>.//button[contains(@data-ng-click,'submit();')]</PSATrequestsubmitbutton>
+
+<PSATBPapprovedpriceonCoprascreen>.//*[@name='approvedprice']</PSATBPapprovedpriceonCoprascreen>
+
+<PSATtotalcheckbox>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/quotepricing-page/div/div/div[12]/div[2]/table/tbody/tr[1]/td[1]/input</PSATtotalcheckbox>>
+<PSATQuick_apply>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/quotepricing-page/div/div/quotepricingbuttons-page[1]/div[2]/div/a[2]/strong/button</PSATQuick_apply>
+<PSATmanualOrPoints>.//*[@id='manualOrPoints']</PSATmanualOrPoints>	
+<PSATOptimalprice>.//*[@name='1446']</PSATOptimalprice>
+<PSATPriceapplybutton>.//button[contains(@data-ng-click,'quickApply();')]</PSATPriceapplybutton>
+<ApprovedPriceAmount>//input[@type="text" and @title="approvedprice"]</ApprovedPriceAmount>
+<OptimalPriceAmount>/input[@class="ng-binding" style="text-align:right"]</OptimalPriceAmount>
+<IBMJPStatusCriteria>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/div[4]/select</IBMJPStatusCriteria>
+
+<IBMsearchshowAddAnother>.//*[contains(@data-ng-show,'showAddAnother')]</IBMsearchshowAddAnother>
+<IBMsearchshowAddAnotherCriteria>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[3]/td[1]/div/select</IBMsearchshowAddAnotherCriteria>
+<IBMsearchBPresoncode>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[3]/td[1]/div/select</IBMsearchBPresoncode>
+
+
+.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[3]/td[2]/div[7]/select
+<PSATCustomersearchbutton>.//button[contains(@data-ng-click,'showPopupSearch(1);')]</PSATCustomersearchbutton>
+<PSATCustomernamedropdown>.//*[@name='customername']</PSATCustomernamedropdown>
+<PSATCustomernameinput>.//*[@id='name']</PSATCustomernameinput>
+<PSATCustomersearchcustomerbutton>.//button[contains(@data-ng-click,'searchCustomer();')]</PSATCustomersearchcustomerbutton>
+<PSATCustomerfirstrecord>.//*[@id='checkBoxPGCode0']</PSATCustomerfirstrecord>
+<PSATCustomerretrievebutton>.//button[contains(@data-ng-click,'selectCustomer();')]</PSATCustomerretrievebutton>
+
+<PSATCustomercontirnuebutton>.//button[contains(@data-ng-click,'checkFoTSS(quoteStepList[3])')]</PSATCustomercontirnuebutton>
+
+<PSATclosecurrentquote>.//*[contains(@ng-click,'removeCurrentQuote')]</PSATclosecurrentquote>
+
+<SearchCriteriaSelect2>//select[@title='Search Criteria']</SearchCriteriaSelect2>
+<PSATSearchCriteriaSelect1>//select[contains(@title,'Search Criteria')]</PSATSearchCriteriaSelect1>
+<PSATSearchCriteriaSelect>.//*[@id='ibm-columns-main']/div/div[2]/div/div/quotesearch-page/div/div[2]/div[1]/div[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/div[2]/select</PSATSearchCriteriaSelect>
+
+<PSATSinglecheck>.//*[@id='singlecheck']</PSATSinglecheck>
+<Singlecheck>.//*[@id='singleCheck']</Singlecheck>
+<psaterrormessage>.//*[@id='ibm-columns-main']/div/div[2]/div/div/quotesearch-page/div/div[3]/div[6]/h3</psaterrormessage>
+<psatmyquoterefinebyquotestatus>.//*[contains(@translate,'column_option_bpquotestatus')]</psatmyquoterefinebyquotestatus>
+
+<!-- END PSAT JP -->
+
+
+
+<!-- Start:  MySA -->
+<MySAePricerlink>.//*[@id='navigation-epricer']/a</MySAePricerlink>
+<MySARolelist1>.//*[contains(@title,'Select one')]</MySARolelist1>
+<MySARolelist>.//*[@id='ePricerForm']/p/select</MySARolelist>
+<MySALoginbutton>.//*[@id='ePricerForm']/div[3]/div/div[2]/button</MySALoginbutton>
+                
+<MySAcurrentrole>.//*[@id='ibm-universal-nav']/div[2]/ul/li[1]/button</MySAcurrentrole>
+
+<MySAMAINT>.//*[@id='ePricerForm']/div[2]/span/div[1]/label</MySAMAINT>
+<MySADEV>.//*[@id='ePricerForm']/div[2]/span/div[2]/label</MySADEV>
+<MySAIVT>.//*[@id='ePricerForm']/div[2]/span/div[3]/label</MySAIVT>
+
+<PSATlogout>.//*[@id='returnToPsat']/span</PSATlogout>
+<!-- End:  MySA -->
+
+
+<!-- Start IBM  -->
+<IBMSearchCriteria>.//*[contains(@data-ng-change,'resetCriteriaValue')]</IBMSearchCriteria>
+<IBMsearchquoteid>//input[@type="text" and @title="Enter quoteid(s)"]</IBMsearchquoteid>
+<IBMSearchButton>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[2]/div/table/tbody/tr/td[2]/a/strong/span</IBMSearchButton>
+
+<IBMCommentsStatus>.//*[text()='Comments/Status']</IBMCommentsStatus>
+<IBMChangeStautsRadio>.//*[@id='commentsId']</IBMChangeStautsRadio>
+<IBMChangeStautsdropdownlist>.//*[@name='selectedStatus']</IBMChangeStautsdropdownlist>
+<IBMChangeStautsreasoncodedropdownlist>.//*[@name='selectedReasonCode']</IBMChangeStautsreasoncodedropdownlist>
+
+<IBMremovefromonhold>.//*[@title='Remove From Hold/Continue process']</IBMremovefromonhold>
+<IBMChangeStautsSaveButton>.//*[contains(@data-ng-click,'savecommentsData')]</IBMChangeStautsSaveButton>
+<IBMapprovelink>Approval</IBMapprovelink>
+<IBMCOPRAlink>COPRA</IBMCOPRAlink>
+<IBMPriceslink>Prices</IBMPriceslink>
+<IBMRequestapprovallink>Request approval</IBMRequestapprovallink>
+<IBMApproveRadio>.//*[@id='approvalCode_approve']</IBMApproveRadio>
+<IBMApprovesubmit>.//*[@id='submitForm']</IBMApprovesubmit>
+
+<IBMuploadattachment>//input[@title="Multiple"]</IBMuploadattachment>
+<IBMuploadallbutton>.//*[contains(@ng-click,'uploadAll()')]</IBMuploadallbutton>
+<IBMaddendumselectdropdown>.//*[@id='addendumList']</IBMaddendumselectdropdown>
+<IBMnonstandardTC>.//*[@id='yes_tcStandardFlag']</IBMnonstandardTC>
+<IBMgetReportAddendum>.//*[contains(@data-ng-click,'addendum')]</IBMgetReportAddendum>
+<IBMexceptiontextinAddendum>.//*[@id='*@@specialtc2@@']</IBMexceptiontextinAddendum>
+<IBMOptimalprice>.//*[@id='optimalprice']</IBMOptimalprice>
+<IBMdisplaycriteria>.//*[contains(@translate,'Display_selected_criteria')]</IBMdisplaycriteria>
+<IBMquotestatus>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteheader-page/div[2]/div/div[2]/div[1]/div[5]/span</IBMquotestatus>
+
+
+<!-- overview page -->
+<IBMoverviewcradnumber>.//*[@id='crad_V17tmp']</IBMoverviewcradnumber>
+<IBMoverviewrequestphone>.//*[contains(@title,'Requester Phone')]</IBMoverviewrequestphone>
+<IBMoverviewcountryselectdropdown>.//*[@name='Select Country']</IBMoverviewcountryselectdropdown>
+<IBMoverviewquotetile>.//*[contains(@title,'Quote Name')]</IBMoverviewquotetile>
+<IBMoverviewoppid>.//*[contains(@title,'Opportunity Id')]</IBMoverviewoppid>
+<IBMoverviewOOemail>.//*[contains(@title,'Opportunity Owner Email')]</IBMoverviewOOemail>
+<IBMoverviewOOname>.//*[contains(@title,'Opportunity Owner Name')]</IBMoverviewOOname>
+<IBMoverviewchannelindicatordropdown>.//*[@name='Select Channel Indicator']</IBMoverviewchannelindicatordropdown>
+<IBMoverviewsolusiontypedropdown>.//*[@name='Select Solution type']</IBMoverviewsolusiontypedropdown>
+<IBMoverviewsavecontinuebutton>//strong[contains(text(),'Save')]</IBMoverviewsavecontinuebutton>
+<!-- above overview page  -->
+
+<!-- configuration page -->
+<IBMcomponentdropdown>.//*[@id='component_type']</IBMcomponentdropdown>
+<IBMcomponenttype>.//*[@id='type']</IBMcomponenttype>
+<IBMcomponentmodel>.//*[@id='model']</IBMcomponentmodel>
+<IBMcomponentaddclose>.//*[@id='addComponenttrue']</IBMcomponentaddclose>
+<IBMcomponentsaveclosebutton>.//*[contains(@data-ng-click,'showQuoteStep(quoteStepList[3])')]</IBMcomponentsaveclosebutton>
+<!-- above configuration page -->
+
+<!-- Administration page -->
+<IBMtabAdministrationname>.//*[@id='customer_name_id']</IBMtabAdministrationname>
+<IBMtabAdministrationothernumberid>.//*[@id='other_number_id']</IBMtabAdministrationothernumberid>
+<IBMtabAdministrationmaintainofferno>.//*[@name='maintenanceNotOffered']</IBMtabAdministrationmaintainofferno>
+<IBMtabAdministrationsigntypecash>.//*[@name='signTypeCash']</IBMtabAdministrationsigntypecash>
+<IBMtabAdministrationpreparecontract>.//*[@name='defaulttypeofsendPrepareContracts']</IBMtabAdministrationpreparecontract>
+<IBMtabAdministrationsign>.//*[@name='defaulttypeofsendInitiateOrder']</IBMtabAdministrationsign>
+<IBMtabAdministrationsavenosendbutton>.//*[contains(@data-ng-click,'saveToSend('N')')]</IBMtabAdministrationsavenosendbutton>
+<IBMtabAdministrationsavebutton>.//*[contains(@data-ng-click,'saveToSend')]</IBMtabAdministrationsavebutton>
+
+<!-- above Administartion page -->
+
+<!-- Pricing page -->
+<IBMtabpricesviewdropdown>.//*[@name='Show']</IBMtabpricesviewdropdown>
+<IBMtabpricesrecalculatebutton>.//*[contains(@translate,'recalculate')]</IBMtabpricesrecalculatebutton>
+
+
+<IBMselectdisplaycritriabutton>.//*[contains(text(),'Display selected criteria')]</IBMselectdisplaycritriabutton>
+<IBMrefreshrealcost>.//*[contains(@translate,'Refresh_Real_Cost')]</IBMrefreshrealcost>
+<IBMexportimport>.//*[contains(@translate,'Export')]</IBMexportimport>
+<approvalhistory>.//*[contains(text(),'Approval History')]</approvalhistory>
+
+<!-- above Pricing page -->
+
+<!-- request approval page -->
+<IBMtabrequestapprovalsavebutton>.//*[contains(@data-ng-click,'submitRequestApproval')]</IBMtabrequestapprovalsavebutton>
+<IBMtabrequestapprovalcancelnotification>.//*[@id='ngdialog4']/div[2]/div[1]/div[2]/div[9]/div/p/button[2]</IBMtabrequestapprovalcancelnotification>
+<IBMtabsubmitcancelnotification>.//*[@id='ngdialog5']/div[2]/div[1]/div[2]/div[9]/div/p/button[2]</IBMtabsubmitcancelnotification>
+<IBMtabrequestapprovalcancelnotificationforduplicatequote>.//*[@id='ngdialog3']/div[2]/div[1]/div[2]/div[9]/div/p/button[2]</IBMtabrequestapprovalcancelnotificationforduplicatequote>
+<IBMtabsubmitcancelnotificationduplicate>.//*[@id='ngdialog4']/div[2]/div[1]/div[2]/div[9]/div/p/button[2]</IBMtabsubmitcancelnotificationduplicate>
+
+<IBMLAQ1>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[1]/div/div[2]/div/input</IBMLAQ1>
+<IBMLAQ2>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[2]/div/div[2]/div/input</IBMLAQ2>
+<IBMLAQ3>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[3]/div/div[2]/div/span[1]/input</IBMLAQ3>
+<IBMLAQ4>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[4]/div/div[2]/div/span[1]/input</IBMLAQ4>
+<IBMLAQ5>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[5]/div/div[2]/div/span[1]/input</IBMLAQ5>
+<IBMLAQ6>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[6]/div/div[2]/div/span[1]/input</IBMLAQ6>
+<IBMLAQ7>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[7]/div/div[2]/div/input</IBMLAQ7>
+<IBMLAQ8>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[8]/div/div[2]/div/span[2]/input</IBMLAQ8>
+<IBMLAQ9>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[9]/div/div[2]/div/input</IBMLAQ9>
+<IBMLAQ10>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[10]/div/div[2]/div/input</IBMLAQ10>
+<IBMLAQ11>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[11]/div/div[2]/div/span[2]/input</IBMLAQ11>
+<IBMLAQ12>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[12]/div/div[2]/div/span[2]/input</IBMLAQ12>
+<IBMLAQ13>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[13]/div/div[2]/div/span[2]/input</IBMLAQ13>
+<IBMLAQ13_1>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[14]/div/div[2]/div/input</IBMLAQ13_1>
+<IBMLAQ14>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[15]/div/div[2]/div/span[2]/input</IBMLAQ14>
+<IBMLAQ15>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[16]/div/div[2]/div/span[2]/input</IBMLAQ15>
+<IBMLAQ16>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[17]/div/div[2]/div/span[2]/input</IBMLAQ16>
+<IBMLAQ17>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[18]/div/div[2]/div/span[2]/input</IBMLAQ17>
+<IBMLAQ18>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[19]/div/div[2]/div/input</IBMLAQ18>
+<IBMLAQ19>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quoteedit-page/div/div/quoteprices-page/div/requestapproval-page/div/div/div[1]/div[5]/div[20]/div/div[2]/div/input</IBMLAQ19>
+
+
+	
+<!-- above request approval page -->
+
+<!-- approval page -->
+<IBMtabapprovalradioapprove>.//*[@id='radio_Approval_approve']</IBMtabapprovalradioapprove>
+<IBMtabapprovalradioreject>.//*[@id='radio_Approval_reject']</IBMtabapprovalradioreject>
+<IBMtabapprovalLvl1emailid>.//*[@id='CUE_BUE_RTL_ID']</IBMtabapprovalLvl1emailid>
+<IBMtabapprovalsubmitbutton>.//*[contains(@data-ng-click,'submitApproval')]</IBMtabapprovalsubmitbutton>
+
+<IBMtabapprovalSBClist>.//*[@id='backupgroupnameid1']</IBMtabapprovalSBClist>
+<IBMtabapprovalSBClistoption1>.//*[@id='backupgroupnameid1']/option[1]</IBMtabapprovalSBClistoption1>
+
+<!-- above approval page -->
+
+
+<IBMtabAdministration>.//*[text()='Administration']</IBMtabAdministration>
+<IBMtabPricing>.//*[text()='Pricing']</IBMtabPricing>
+<IBMtabOverview>.//*[text()='Pricing']</IBMtabOverview>
+
+
+<IBMclosecurrnetquote>.//*[contains(@ng-click,'removeCurrentQuote(item);')]</IBMclosecurrnetquote>
+
+<IBMselectinternalquote>.//*[contains(@title,'Select an Internal Quote')]</IBMselectinternalquote>
+<IBMsearchcriteria>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[2]/td[1]/div/select</IBMsearchcriteria>
+<IBMquoteidinput>.//*[@id='ibm-pagetitle-h1']/div[3]/div[2]/quotesearch-page/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/div[12]/input</IBMquoteidinput>
+<IBMsearchquoteaction>.//*[contains(@title,'Open')]</IBMsearchquoteaction>
+<IBMmultipleCheck>.//*[@id='multipleCheck']</IBMmultipleCheck>
+<IBMsearchbutton>.//a[contains(@data-ng-click,'search(0)')]</IBMsearchbutton>
+
+<!-- end IBM  -->
+
+
+<PricingTab>//*[contains(text(),'Pricing')]</PricingTab>
+<PricesOnPricing>//*[contains(text(),'Prices')]</PricesOnPricing>
+<BPInformation>//*[contains(text(),'BP Information')]</BPInformation>
+<RemoveFromHold>//input[@id="commentsIdRfh"]</RemoveFromHold>
+<ApplyButton>//strong[contains(text(),'Apply')]</ApplyButton>
+<TableViewDropDown>//select[@name='Show' and @title='Show']</TableViewDropDown>
+<ShowMarginCalculatoinLink>//span[@class="ng-scope" and contains(text(),'Show')]</ShowMarginCalculatoinLink>
+<ApprovedPriceField>//*[@title='PriceValue']</ApprovedPriceField>
+<RecalculateButton>//span[contains(text(),'Recalculate')]</RecalculateButton>
+<ExportButton>//span[contains(text(),'Export')]</ExportButton>
+<NotFoundComp>//a[contains(@data-ng-click, 'getCompFeatures')]</NotFoundComp>
+<NotFoundCompLPInput>//input[contains(@data-ng-change,'changeFeatureListPrice')]</NotFoundCompLPInput>
+<NotFoundComp>//input[contains(@data-ng-change,'changeFeatureListPrice')]</NotFoundComp>
+<ApplyLPForNotFound>//span[contains(@data-ng-show,'currentQuote.quoteprice.pricingDisplayData')]</ApplyLPForNotFound>
+<CloseLPApplied>//span[contains(@data-ng-disabled,'currentQuote.isreadonly')]</CloseLPApplied>
+
+<ReportsLettersTab>//*[contains(text(),'
+				       			Reports/Letters')]</ReportsLettersTab>
+<FirstCompCheckBox>//input[@id='chckBoxPGCode_conf0']</FirstCompCheckBox>
+<FirstCFRCheckBox>//input[@id='chckBoxPGCode_conf1']</FirstCFRCheckBox>
+<DeleteItemButton>//span[contains(text(),'Delete item')]</DeleteItemButton>
+<AddendumButton>//strong[contains(text(),'Addendum')]</AddendumButton>
+<ReviewerReport>//strong[contains(text(),'Reviewer report')]</ReviewerReport>
+
+<ReviewersTab>//*[contains(text(),'Reviewers')]</ReviewersTab>
+<ShowSelectedReviewerButton>//*[contains(text(),'Show Selected reviewer ')]</ShowSelectedReviewerButton>
+<Quotemanagerchange>//input[@title='quotemanagerchange']</Quotemanagerchange>
+<AddToListButton>//strong[contains(text(),'Add to list')]</AddToListButton>	       			
+<SaveNSubmitButton>//strong[contains(text(),'Save and submit')]</SaveNSubmitButton>	
+<ConcurIdRadioButton>//input[@id='radio_ConcurId']</ConcurIdRadioButton>
+<DownloadAttachmentReviewer>//*[@title='Click here to download attached file']</DownloadAttachmentReviewer>
+
+<!-- Create_A_SBO_Quote_Incomplete_It_And_ReSubmit_A_SBO  start -->
+<RequestedEndUserPrice>//input[@id='requestedEndUserPrice_id']</RequestedEndUserPrice>
+<ApplyBtn>//span[@translate="Apply"]</ApplyBtn>
+<UploadTextFileBtn>//input[@title="Multiple"]</UploadTextFileBtn>
+<UploadAllBtn>//span[contains(text(),'Upload all')]</UploadAllBtn>
+<DownloadBtn>//span[contains(text(),'Download')]</DownloadBtn>
+<SubmitPriceRequestBTN>//span[@translate='Submit']</SubmitPriceRequestBTN>
+<SearchQuotesIBMGUIScreen>//p[contains(text(),'Search quotes')]</SearchQuotesIBMGUIScreen>
+<ShowMarginCalculationLink>//a[contains(text(),'Margin calculation')]</ShowMarginCalculationLink>
+<EndUserPrice>//input[@class="ng-pristine ng-valid ng-touched"]</EndUserPrice>
+<EndUserDiscount>//input[@class="ng-pristine ng-valid ng-touched"]/ following::td[@class="ng-binding"]</EndUserDiscount>
+<AttachmentsTab>//a[contains(text(),'Attachments')]</AttachmentsTab>
+<BPInformationTab>//a[contains(text(),'BP Information')]</BPInformationTab>
+<GeneralInformationTitle>//*[@translate="General_information"]</GeneralInformationTitle>
+<TestFileDownloadBTN>//*[@target="download"]</TestFileDownloadBTN>
+<TestFile>//strong[contains(text(),'TestFile.txt')]</TestFile>
+<EndUserPriceAndEndUserDiscount>//span[@translate="End User price"]/ following::td[@class="number ng-binding"]</EndUserPriceAndEndUserDiscount>
+<EndDis>//td[@translate='End user discount']/ following::td[@class='number ng-binding']</EndDis>
+<!-- Create_A_SBO_Quote_Incomplete_It_And_ReSubmit_A_SBO end -->
+
+<!-- Duplicate_A_VS_Approved_Quote_TC28  start -->
+<RequestValueSellerOfferBTN>//strong[@translate="Request_Value_Seller_Offer"]</RequestValueSellerOfferBTN>
+<ReturnToPSATLink>//span[@translate="Return_To_PSAT"]</ReturnToPSATLink>
+<!-- Duplicate_A_VS_Approved_Quote_TC28 end -->
+
+<PCS_BPCompanyName>//input[@id='bpCompanyName']</PCS_BPCompanyName>
+<SaveContinueREG>.//form/div[4]//button[2]/strong</SaveContinueREG>
+<PCS_discount>.//*[@title='quick apply percent']</PCS_discount>
+<ApprovedSummary>//a[contains(text(),'Approved summary')]</ApprovedSummary>
+
+<DuplicateTab>//*[contains(text(),'Duplicates')]</DuplicateTab>
+<send_to_channel>//*[contains(@data-ng-click,'sendToChannel')]</send_to_channel>
+<send_for_duplicate_review>//button[contains(@data-ng-click,'sendForDuplicateReview')]</send_for_duplicate_review>
+<OnHoldDuplicateStatus>//span//span[contains(text(),'Duplicate')] / following::div[@class='col-md-4 ng-scope']</OnHoldDuplicateStatus>
+<TableView> //select[@name='Show' and @title='Show']</TableView>
+<NotfoundComponentLink>//a[contains(@data-ng-click, 'getCompFeatures')]</NotfoundComponentLink>
+<ListPriceforNotfoundComponent>//input[contains(@data-ng-change,'changeFeatureListPrice')]</ListPriceforNotfoundComponent>
+<ApplyButtonClickNotFound>//span[contains(@data-ng-show,'currentQuote.quoteprice.pricingDisplayData')</ApplyButtonClickNotFound>
+<!-- EMEA IBM -->
+<IBMEMEACreateQuoteLink>//a[contains(text(),'Create quote')]</IBMEMEACreateQuoteLink>
+<RequesterPhone>//input[@title='Requester Phone']</RequesterPhone>
+<QuoteTitleInternal>//input[@title='Quote Name']</QuoteTitleInternal>
+<OpportunityId>//input[@title='Opportunity Id']</OpportunityId>
+<OpportunityOwnerName>//input[@title='Opportunity Owner Name']</OpportunityOwnerName>
+<OpportunityOwnerEmail>//input[@title='Opportunity Owner Email']</OpportunityOwnerEmail>
+<SelectChannelIndicatorDropDown>//*[@title='Select channel indicator']</SelectChannelIndicatorDropDown>
+<SelectSolutionType>//*[@title='Select solution type']</SelectSolutionType>
+<SearchForACustomer>//button[contains(text(),'Search for a customer')]</SearchForACustomer>
+<NewCustomerToIBM>//button[contains(text(),'New customer to IBM')]</NewCustomerToIBM>
+<EndUserCustomerName>//input[@title='End user customer name :']</EndUserCustomerName>
+<IBMMasterCustomerRadio>//input[@value='E']</IBMMasterCustomerRadio>
+<CustomerSaveAndContinue>//button[contains(@data-ng-click,'validateSave()')]</CustomerSaveAndContinue>
+<CustomerSelectionByCompanyName>//select[@title='customer name']</CustomerSelectionByCompanyName>
+<SearchInternalCustomer>//span[text()='Search Customer']</SearchInternalCustomer>
+<CustomerSelectionForInternal>//input[@id='radio_PGCode0']</CustomerSelectionForInternal>
+<SearchForName>//input[@id='name']</SearchForName>
+<SelectCustomerClick>//button[contains(@data-ng-click,'selectCustomer()')]</SelectCustomerClick>
+<CustomerPageSaveAndContinue>//button[contains(@data-ng-click,'validateSave()')]</CustomerPageSaveAndContinue>
+<MnageInternaConfigurationPolygon>//*[contains(text(),'Configuration')]</MnageInternaConfigurationPolygon>
+<DisableChecksum>//input[@title='Disable Checksum']</DisableChecksum>
+<WorkWithOtherCountryCFR>//input[@title='Work with other country CFR']</WorkWithOtherCountryCFR>
+<PricingPrices>//a[contains(text(),'Prices')]</PricingPrices>
+<PricingCheckBoxClick>//input[@name='checkRow']</PricingCheckBoxClick>
+<QuickApplyButton>//span[text()='Quick apply']</QuickApplyButton>
+<QuickApplyField>//input[@id='comapprovedpercent']</QuickApplyField>
+<ApplyAfterDiscount>//span[@translate='Apply_quoted_price']</ApplyAfterDiscount>
+<ApproveDiscountField>//input[@title='PriceValue']</ApproveDiscountField>
+<RecalculateButton>//span[contains(text(),'Recalculate']</RecalculateButton>
+<ConfigurationSaveButton>//strong[contains(text(),'Continue')]</ConfigurationSaveButton>
+<RequestApproval>//a[text()='Request approval']</RequestApproval>
+<TSSCheckBOX>//input[contains(@title,'Do you want to include any TSS maintenance services you were unable to select in the configurator')]</TSSCheckBOX>
+<EnterEmailAddress>//*[@title='Enter email id']</EnterEmailAddress>
+<AddToButton>//strong[contains(text(),'Add TO')]</AddToButton>
+<SendEmailButton>//strong[@translate='Send']</SendEmailButton>
+<QuoteIdIBM>//div[@translate='Quote_Id'] / following::div[@class='col-md-3 ng-binding']</QuoteIdIBM>
+<PricingPolygon>.//*[contains(text(),'Pricing')]</PricingPolygon>
+<QuickApplyPriceUpdateField>//input[@id='comapprovedprice']</QuickApplyPriceUpdateField>
+<ReportsLettersPolygon>.//*[contains(text(),'Reports/Letters')]</ReportsLettersPolygon>
+<SearchButtonForQuote>//span[contains(text(),'Search')]</SearchButtonForQuote>
+<BrowseButton>//input[@title='Browse']</BrowseButton>
+<UploadDocBtn>//span[contains(text(),'Upload all ')]</UploadDocBtn>
+<CommentsAttachmentsTab>.//*[contains(text(),'Comments/Attachments')]</CommentsAttachmentsTab>
+<SearchedCustomerResult>//input[@id='chckBoxPGCode0' and @title='Selected Group']</SearchedCustomerResult>
+<QuoteActionDropDown>//select[@title='Open']</QuoteActionDropDown>
+<DuplicatingQuoteGoButton>.//*[contains(text(),'GO') and @class='btn btn-primary']</DuplicatingQuoteGoButton>
+<PopUpNoButton>//a[contains(text(),'No')]</PopUpNoButton>
+<PopUpYesButton>//a[contains(text(),'Yes')]</PopUpYesButton>
+<AttachedFiles>//span[contains(text(),'Attached files:')]</AttachedFiles>
+
+<ManageConfiguration>.//*[contains(text(),'Configuration')]</ManageConfiguration>
+<ManualComponentCheckBox>//input[@name="selectedPGProdcut"]</ManualComponentCheckBox>
+<CFRCheckBox>//input[@name="selectedPGProdcut"]</CFRCheckBox>
+<DeleteItemButton>//span[@translate='Delete_Item']</DeleteItemButton>
+<AddComponentButton>//input[@id='addComponenttrue' and @value='Add and Close']</AddComponentButton>
+
+<ComponentViewTable>.//*[@name='Show' and @title='Show']</ComponentViewTable>
+<CopraTab>//a[contains(text(),'COPRA')]</CopraTab>
+<ApplyApprovedPrice>//span[contains(text(),'Apply Approved Price')]</ApplyApprovedPrice>
+
+<NonLegacyCustomerNumberField>//input[@title='Non legacy customer number :']</NonLegacyCustomerNumberField>
+<AffiliateNumberField>//input[@title='Affiliate number :']</AffiliateNumberField>
+<CMRNumberField>//input[@title='CMR number :']</CMRNumberField>
+<RegionField>//select[@title='Region :']</RegionField>
+<CoverageModelField>//select[@title='Coverage model :']</CoverageModelField>
+<CoverageIDField>//input[@title='Coverage ID :']</CoverageIDField>
+<IndustryClassificationField>//select[@title='Industry classification :']</IndustryClassificationField>
+<INACSIANumberTypeField>//select[@title='INAC/SIA number type :']</INACSIANumberTypeField>
+<INACSIANumberField>//input[@title='INAC/SIA number :']</INACSIANumberField>
+<CustomerTypeField>//select[@title='Customer Type :']</CustomerTypeField>
+<SaveAndContinueButton>//button[@aria-label='Save and continue']</SaveAndContinueButton>
+
+<AddAnotherComponentButton>//input[@id='addAnotherComponenttrue']</AddAnotherComponentButton>
+<ComponentTypeDropDown>//select[@id='component_type']</ComponentTypeDropDown>
+<ApprovalRadioButton>//input[@title='Select the approval code']</ApprovalRadioButton>
+<Level1InranetID>//input[@id='CUE_BUE_RTL_ID']</Level1InranetID>
+
+<AdministrationTab>.//*[contains(text(),'Administration')]</AdministrationTab>
+<AdminNameField>//input[@id='customer_name_id']</AdminNameField>
+<CPINumberField>//input[@id='other_number_id']</CPINumberField>
+<MaintainanceOfferedRadioButton>//input[@name='maintenanceNotOffered']</MaintainanceOfferedRadioButton>
+<CashModePaymentRadioButton>//input[@name='signTypeCash']</CashModePaymentRadioButton>
+<AdminSaveAndSendButton>//strong[contains(text(),'Save/send')]</AdminSaveAndSendButton>
+<TypeOfSend>//input[@name='defaulttypeofsendPrepareContracts']</TypeOfSend>
+<DefaultTypeOfSend>//input[@name='defaulttypeofsendInitiateOrder']</DefaultTypeOfSend>
+<QuoteStatusCheck>.//*[contains(text(),'Contract preparation
+					')]</QuoteStatusCheck>
+<QuoteStatusCheck2>.//*[contains(text(),'Quote proposal signed by customer
+					')]</QuoteStatusCheck2>
+<FinancialTab>//a[contains(text(),'Financials')]</FinancialTab>
+<AttachStandardReportButton>//span[contains(text(),'Attach standard report')]</AttachStandardReportButton>
+<CloseQuote>.//*[@class='ibm-remove-link']</CloseQuote>
+<STDReport>//span[contains(text(),'Current uploaded file: ')]</STDReport>
+<RemoveConfidentialDoc>//span[contains(text(),'Remove')]</RemoveConfidentialDoc>
+<ProceedForReviewButton>//span[contains(text(),'Proceed for reviewal/assign reviewer')]</ProceedForReviewButton>
+<DownloadSummaryButton>//span[contains(text(),'Download Summary')]</DownloadSummaryButton>
+<SaveCommentsButton>.//*[contains(text(),'Save comments')]</SaveCommentsButton>
+<SelectCountryDropDown>//select[@title='Select Country']</SelectCountryDropDown>
+<CMRCustomerName>//input[@title='CMR customer']</CMRCustomerName>
+<StandardReport>//strong[contains(text(),'Standard report')]</StandardReport>
+<ReviewerReport>//strong[contains(text(),'Reviewer report')]</ReviewerReport>
+<SaveAndView>//a[contains(text(),'Save and view
+						')]</SaveAndView>
+						
+<ApprovedDiscountValue>//input[@title="PriceValue"]</ApprovedDiscountValue>
+<RecalculateBtn>//span[@translate="recalculate"]</RecalculateBtn>
+<NeedApprovalLabel>//span[@class='ng-binding ng-scope']</NeedApprovalLabel>
+<RequestApprovalTab>//a[contains(text(),'Request approval')]</RequestApprovalTab>
+<WaitingForApprovalLabel>//span[@class='text-center text-success ng-binding']</WaitingForApprovalLabel>
+<ApprovalTab>//a[contains(text(),'Approval')]</ApprovalTab>
+<RadioApprovalApprove>//input[@id="radio_Approval_approve"]</RadioApprovalApprove>
+<NaIBMQuoteSubmitBtn>//strong[@translate="Submit"]</NaIBMQuoteSubmitBtn>
+<IntranetId>//input[@translate="Intranet_Id_Suggestion"]</IntranetId>
+<ApprovedPriceValueNA>//input[@title='PriceValue' and @data-isdiscount='false']</ApprovedPriceValueNA>
+<SpecialBidCode>//select[@id='backupgroupnameid1']</SpecialBidCode>
+<EveryoneRadioButton>//input[@title='Everyone']</EveryoneRadioButton>
+<MatchApprovePricesOne>//input[@class='input-control focusedBlue ng-pristine ng-untouched ng-valid ng-scope']</MatchApprovePricesOne>
+<StandardReportBtn>//strong[@translate='Report_Standard_Report']</StandardReportBtn>
+<HistoryReportBtn>//strong[@translate="Report_History_Report"]</HistoryReportBtn>
+<TailoredReportBtn>//strong[@translate="Report_Tailored_Report"]</TailoredReportBtn>
+
+<StandardReportScreen>//h2[contains(text(),'Standard report')]</StandardReportScreen>
+<HistoryReportScreen>//h2[contains(text(),'History report')]</HistoryReportScreen>
+
+<TailoredReportScreen>//h2[@translate="Report_Tailored_Report"]</TailoredReportScreen>
+<TailoredReportName>//input[@id="reportSectionTitle"]</TailoredReportName>
+<SectionsShowBtn>//button[@translate="Show"]</SectionsShowBtn>
+<TailoredReportSaveAndViewBtn>//strong[@translate="Save_and_view"]</TailoredReportSaveAndViewBtn>
+<TestTailoredReport>//h2[contains(text(),'test')]</TestTailoredReport>
+
+<EntitlementsPromoTab>.//*[contains(text(),'Entitlements/promo')]</EntitlementsPromoTab>
+<DiscountOnEP>.//*[@id='Discount']</DiscountOnEP>
+<EntitlementDescription>.//*[@id='Entitlement description']</EntitlementDescription>
+<ReferenceOnEP>.//*[@id='Reference']</ReferenceOnEP>
+<ByComponentTabOnEP>.//*[contains(text(),'
+		       			By component
+		       		')]</ByComponentTabOnEP>
+<ByReferenceTabOnEP>.//*[contains(text(),'
+		       			By reference (used)
+		       		')]</ByReferenceTabOnEP>		    
+<ByReferenceAvailableTabOnEP>.//*[contains(text(),'
+		       			By reference (available)
+		       		')]</ByReferenceAvailableTabOnEP>
+<CustomerPolygon>.//*[contains(text(),'Customer')]</CustomerPolygon>
+<EntitledPriceVisible>.//*[@data-ng-show="currentQuote.manageConfigData.isBPEntitledPriceVisible=='true'"]</EntitledPriceVisible>
+<DiscountOnByComponent>.//*[@class='number fontent ng-binding']</DiscountOnByComponent>
+<DiscountOnByReference>//td[@class='ng-binding']</DiscountOnByReference>
+<DiscountOnByReferenceAvail>.//*[@class='ng-binding']</DiscountOnByReferenceAvail>
+
+<QuoteUpdateError>//*[contains(text(),'The quote has been updated since the time it has been opened. To work on the updated quote, please close the quote and open it again.')]</QuoteUpdateError>
+</Root>
+
+

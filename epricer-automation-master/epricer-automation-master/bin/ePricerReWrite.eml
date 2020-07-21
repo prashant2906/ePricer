@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="12" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="activation.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/activation.jar!/"/>
+	</lib>
+	<lib name="aspose-cells-8.8.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/aspose-cells-8.8.3.jar!/"/>
+	</lib>
+	<lib name="bsh-2.0b4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/bsh-2.0b4.jar!/"/>
+	</lib>
+	<lib name="bson-3.3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/bson-3.3.0.jar!/"/>
+	</lib>
+	<lib name="commons-codec-1.9.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-codec-1.9.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.5.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.5-javadoc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.5-javadoc.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.6-bin.zip" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6-bin.zip!/"/>
+	</lib>
+	<lib name="commons-io-2.6-javadoc.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6-javadoc.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.6-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6-sources.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.6-tests.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6-tests.jar!/"/>
+	</lib>
+	<lib name="commons-io-2.6-test-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-io-2.6-test-sources.jar!/"/>
+	</lib>
+	<lib name="commons-lang3-3.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-lang3-3.7.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-logging-1.2.jar!/"/>
+	</lib>
+	<lib name="commons-net-3.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-net-3.3.jar!/"/>
+	</lib>
+	<lib name="commons-vfs2-2.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/commons-vfs2-2.0.jar!/"/>
+	</lib>
+	<lib name="extentreports-2.05.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/extentreports-2.05.jar!/"/>
+	</lib>
+	<lib name="extentreports-3.1.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/extentreports-3.1.5.jar!/"/>
+	</lib>
+	<lib name="extentreports-java-3.1.5.zip" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/extentreports-java-3.1.5.zip!/"/>
+	</lib>
+	<lib name="freemarker-2.3.23.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/freemarker-2.3.23.jar!/"/>
+	</lib>
+	<lib name="ganymed-ssh2-build210.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/ganymed-ssh2-build210.jar!/"/>
+	</lib>
+	<lib name="gson-2.8.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/gson-2.8.0.jar!/"/>
+	</lib>
+	<lib name="httpclient-4.5.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/httpclient-4.5.2.jar!/"/>
+	</lib>
+	<lib name="httpcore-4.4.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/httpcore-4.4.4.jar!/"/>
+	</lib>
+	<lib name="httpmime-4.5.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/httpmime-4.5.2.jar!/"/>
+	</lib>
+	<lib name="iText-2.1.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/iText-2.1.7.jar!/"/>
+	</lib>
+	<lib name="iText-rtf-2.1.7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/iText-rtf-2.1.7.jar!/"/>
+	</lib>
+	<lib name="java-client-2.1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/java-client-2.1.0.jar!/"/>
+	</lib>
+	<lib name="java-client-2.1.0-sources.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/java-client-2.1.0-sources.jar!/"/>
+	</lib>
+	<lib name="jcommander-1.48.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/jcommander-1.48.jar!/"/>
+	</lib>
+	<lib name="jsch-0.1.51.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/jsch-0.1.51.jar!/"/>
+	</lib>
+	<lib name="jsoup-1.8.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/jsoup-1.8.2.jar!/"/>
+	</lib>
+	<lib name="jsoup-1.9.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/jsoup-1.9.2.jar!/"/>
+	</lib>
+	<lib name="junit-4.12.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/junit-4.12.jar!/"/>
+	</lib>
+	<lib name="jyaml-1.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/jyaml-1.3.jar!/"/>
+	</lib>
+	<lib name="log4j-1.2.14.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/log4j-1.2.14.jar!/"/>
+	</lib>
+	<lib name="mail.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/mail.jar!/"/>
+	</lib>
+	<lib name="mongodb-driver-3.3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/mongodb-driver-3.3.0.jar!/"/>
+	</lib>
+	<lib name="mongodb-driver-core-3.3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/mongodb-driver-core-3.3.0.jar!/"/>
+	</lib>
+	<lib name="poi-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="poi-examples-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-examples-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="poi-excelant-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-excelant-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-ooxml-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-schemas-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-ooxml-schemas-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="poi-scratchpad-3.12-20150511.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/poi-scratchpad-3.12-20150511.jar!/"/>
+	</lib>
+	<lib name="selenium-api-2.53.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-api-2.53.0.jar!/"/>
+	</lib>
+	<lib name="selenium-chrome-driver-2.52.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-chrome-driver-2.52.0.jar!/"/>
+	</lib>
+	<lib name="selenium-firefox-driver-2.53.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-firefox-driver-2.53.0.jar!/"/>
+	</lib>
+	<lib name="selenium-ie-driver-2.53.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-ie-driver-2.53.0.jar!/"/>
+	</lib>
+	<lib name="selenium-remote-driver-2.53.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-remote-driver-2.53.0.jar!/"/>
+	</lib>
+	<lib name="selenium-server-2.52.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-server-2.52.0.jar!/"/>
+	</lib>
+	<lib name="selenium-server-standalone-2.53.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-server-standalone-2.53.0.jar!/"/>
+	</lib>
+	<lib name="selenium-support-2.52.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/selenium-support-2.52.0.jar!/"/>
+	</lib>
+	<lib name="testng.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/testng.jar!/"/>
+	</lib>
+	<lib name="testng-6.8.6beta.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/testng-6.8.6beta.jar!/"/>
+	</lib>
+	<lib name="testng-6.9.10.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/testng-6.9.10.jar!/"/>
+	</lib>
+	<lib name="xmlbeans-2.3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/ePricerReWrite/lib/xmlbeans-2.3.0.jar!/"/>
+	</lib>
+</component>

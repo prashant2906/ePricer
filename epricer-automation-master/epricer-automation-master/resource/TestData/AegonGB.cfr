@@ -1,0 +1,498 @@
+003120201210ECMSSD  15081 150806US8970021Inventory Services                                  20150909                                       USen                     00                                                                                                                                                
+030Unclassified          
+05         10                                                               
+05         10   Created on August 24, 2015 at 03:51PM by Phouybanhdyt       
+05         10                                                               
+05         1U   Links for Financial Tools.                                  
+05         0U   Estimate a low monthly payment at:                          
+05         0U   For deals under $500K:                                      
+05         0U   http://www.ibm.com/financing/partner/tools/calculators/     
+05         0U   For deals over $500K:                                       
+05         0U   http://www.ibm.com/financing/partner/tools/igfcontact.html  
+05         1U   HW upgrades may impact HW Maintenance charges. Verify       
+05         0U   whether the base machine is on IBM HW Maintenance prior to  
+05         0U   submitting the order for this MES. If the base machine is on
+05         0U   IBM HW Maintenance, then send the MES .cfr  to your Services
+05         0U   Sales team to obtain a services quote for the upgraded      
+05         0U   system.                                                     
+060038001BERchanged_hw=1^changed_sw=0^
+061084001MDDBASE_SOURCE^1^ECMSSD  ^IBM_CRAD^1^19010102^SV_DEFAULT_CATEGORIES^5^SB_Cat_SWMA_Services^SB_Cat_Services_Storage_Services^SB_Cat_Services_Operational^SB_Cat_Services_RS_Installation^SB_Cat_Warranty_Services^IBM_PHYSEL_VERSION^1^2.0^IBM_CB_VALID^1^TRUE^SW_Global_06_swrs_cho_global_preference_control^1^sw_core_otc_charge_option^SW_Global_06_swrs_media_global_preference_control^1^swn_esd_media^SW_Global_06_swrs_language_global_preference_control^1^sw_core_language_prim_english^SW_Global_06_swrs_maintenance_global_preference_control^1^sw_core_nim_maint_3yr^SW_Global_06_swrs_shipping_options_global_control^1^sw_core_shipping_option_3444^SW_Global_06_swrs_expedite_global_control^1^sw_core_shipping_option_no_expedite^SW_Global_06_swrs_suppress_global_control^1^sw_core_shipping_option_not_3480^SW_Global_06_swrs_preinstall_languages_control^1^sw_core_preinst_language_english_ul^SW_Global_06_swrs_cultural_languages_control^1^sw_core_cultural_std_language^SW_Global_06_swrs_support_global_preference_control^1^sw_9by5_support_service^IBM_WITHDRAWN_PRODUCTS_MODE^1^FALSE^
+07   No CPUSIU for the following products                                            
+012BASE CONFIGURATION                                                                
+060051001MDDSW_TYPE^1^RS^SW_MODEL^2^^pSeries or RS^
+253952 F05    11903       15651       15655      157332       19954       1AGGA       1
+953952F05          000018104                     S88020356DQM0             51945582015090720150729I      M                                    Tape Frame                                  
+060456001MDDibm_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^IBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^6^1^1^15^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^6^ssd_3952_7332^ssd_3952_5651^ssd_3952_5655^ssd_3952_1903^ssd_3952_9954^ssd_3952_AGGA^
+060034001BED1^1^30E4E900^30E4E900^
+961903                                            Dual AC Power                               
+965651                                            Plant Install 3956-CS9                      
+965655                                            Plant Install 3956-XS9                      
+967332                                            TS7720 Encryption Capable Expansion Frame   
+969954                      N                     NEMA L6-30 Power Cord                       
+96AGGA                                            Shipping and Handling F05                   
+253952 F05    11903       11904       12704       12725       12748       15512       15627       15651       15655       95758       17331       19115       19323       19954       1AGGA       1
+953952F05          000018084                     S88020356DQM0             51945582015090720150729I      M                                    Tape Frame                                  
+060531001MDDIBM_MTM_NAME^1^^ibm_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^15^1^1^1^9^1^1^1^1^1^1^1^1^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^15^ssd_3952_7331^ssd_3952_5627^ssd_3952_5651^ssd_3952_5655^ssd_3952_9323^ssd_3952_9115^ssd_3952_5758^ssd_3952_5512^ssd_3952_2748^ssd_3952_2725^ssd_3952_2704^ssd_3952_1904^ssd_3952_1903^ssd_3952_9954^ssd_3952_AGGA^
+060034001BED1^2^30E506C8^30E506C8^
+961903                                            Dual AC Power                               
+961904                                            Redundant AC Power                          
+962704                                            Console Expansion 26 Port Enet Switch/Rackmount 
+962725                                            Rackmount TS3000 System Console             
+962748                                            Optical Drive                               
+965512                                            KVM - Display/Keyboard/Mouse                
+965627                                            Install 3957-VEB                            
+965651                                            Plant Install 3956-CS9                      
+965655                                            Plant Install 3956-XS9                      
+965758                                            Integrated Control Path                     
+967331                                            TS7720 Encryption Capable Base Frame        
+969115                      N                     Ship with R3.2 Machine Code                 
+969323                      N                     Expansion Frame Attach                      
+969954                      N                     NEMA L6-30 Power Cord                       
+96AGGA                                            Shipping and Handling F05                   
+253956 CS9    17115       17404       19352       1
+953956CS9          0000DAVTF                     S88020356DQM0             51945582015090720150729I      M                                    TS7720 Cache Controller                     
+060344001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9352^ssd_3956_7404^ssd_3956_7115^
+060034001BED1^3^30E4BC78^30E4BC78^
+967115                                            36 TB SAS Storage                           
+967404                                            Encryption                                  
+969352                      N                     Plant Install in F05                        
+253956 CS9    17115       17404       19352       1
+953956CS9          0000DATKN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Controller                     
+060344001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9352^ssd_3956_7404^ssd_3956_7115^
+060034001BED1^4^30E4C430^30E4C430^
+967115                                            36 TB SAS Storage                           
+967404                                            Encryption                                  
+969352                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          000000SN13YCVQJ               S88020356DQM0             519455820150907        I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^5^30E40338^30E40338^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXYL                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^6^30E40AF0^30E40AF0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXYE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^7^30E412A8^30E412A8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXY                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^8^30E41A60^30E41A60^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^9^30E42218^30E42218^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXH                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^10^30E429D0^30E429D0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXWZ                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^11^30E43188^30E43188^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXRE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^12^30E43940^30E43940^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXNY                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^13^30E440F8^30E440F8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXKW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^14^30E448B0^30E448B0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXKV                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^15^30E45068^30E45068^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAXFE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^16^30E45820^30E45820^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWZW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^17^30E45FD8^30E45FD8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWZV                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^18^30E46790^30E46790^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWWL                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40CC0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^19^30E46F48^30E46F48^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWMA                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^20^30E47700^30E47700^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWLT                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^21^30E47EB8^30E47EB8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWLR                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^22^30E48670^30E48670^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^23^30E48E28^30E48E28^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^24^30E495E0^30E495E0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFK                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^25^30E49D98^30E49D98^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFH                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^26^30E4A550^30E4A550^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFG                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^27^30E4AD08^30E4AD08^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253956 XS9    17116       17404       19354       1
+953956XS9          0000DAWER                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060345001MDDIBM_MTM_NAME^1^^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^28^30E4B4C0^30E4B4C0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+253957 VEB    10201       41034       11036       22715       13442       44015       15241       15268       55272       19000       19115       19268       19350       1
+953957VEB          0000H6064                     S888803675780             367578 2015090720140101I      M                                    TS7720 Virtualization Engine Server         
+060524001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x2BC40090 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^^PEMA_RELATED_HW^1^^SB_RELATED_HW^1^^HB_RELATED_HW^1^^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^13^5^2^1^1^1^1^1^1^1^4^1^4^1^SSD_MTM_EXPLICIT_SELECTION_MC^13^ssd_3957b_5268^ssd_3957_1036^ssd_3957b_5241^ssd_3957_9268^ssd_3957_9115^ssd_3957_9000^ssd_3957_5272^ssd_3957_4015^ssd_3957_1034^ssd_3957_3442^ssd_3957_2715^ssd_3957_0201^ssd_3957_9350^
+060035001BED1^29^30E4CBE8^30E4CBE8^
+960201                                            9 Micron LC/LC 31 Meter                     
+961034                                            Enable Dual Port Grid Connection            
+961036                                            1Gb Grid Dual Port Copper Connection        
+962715                      N                     Console Attachment                          
+963442                                            FICON Long Wavelength Attachment            
+964015                                            Grid Enablement                             
+965241                                            Dual Port FC HBA                            
+965268                                            100 MB/sec Increment                        
+965272                                            Enable Disk Encryption                      
+969000                      N                     Mainframe Attachment                        
+969115                      N                     Ship with R3.2 Machine Code                 
+969268                      N                     100 MB/s Throughput - Plant                 
+969350                      N                     Plant Install in F05                        
+013PROPOSED CONFIGURATION                                                            
+060051001MDDSW_TYPE^1^RS^SW_MODEL^2^^pSeries or RS^
+263952 F05    11903       15651       15655      157332       19954       1AGGA       1
+953952F05          000018104                     S88020356DQM0             51945582015090720150729I      M                                    Tape Frame                                  
+060516001MDDibm_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3952F05-1-3^PEMA_RELATED_HW^1^3952F05-1-3^SB_RELATED_HW^1^3952F05-1-3^HB_RELATED_HW^1^3952F05-1-3^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^6^1^1^15^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^6^ssd_3952_7332^ssd_3952_5651^ssd_3952_5655^ssd_3952_1903^ssd_3952_9954^ssd_3952_AGGA^
+060034001BED1^1^30174780^30174780^
+961903                                            Dual AC Power                               
+965651                                            Plant Install 3956-CS9                      
+965655                                            Plant Install 3956-XS9                      
+967332                                            TS7720 Encryption Capable Expansion Frame   
+969954                      N                     NEMA L6-30 Power Cord                       
+96AGGA                                            Shipping and Handling F05                   
+263952 F05    11903       11904       12704       12725       12748       15512       15627       15651       15655       95758       17331       19115       19323       19954       1AGGA       1
+953952F05          000018084                     S88020356DQM0             51945582015090720150729I      M                                    Tape Frame                                  
+060652001MDDibm_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_Leaf_Category 0x3056DBA0 [SBO_ATL_SSD]^SERVICE_INTEGRATOR_RELATED_HW^1^3952F05-1-2^PEMA_RELATED_HW^1^3952F05-1-2^SB_RELATED_HW^1^3952F05-1-2^HB_RELATED_HW^1^3952F05-1-2^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^15^1^1^1^9^1^1^1^1^1^1^1^1^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^15^ssd_3952_7331^ssd_3952_5627^ssd_3952_5651^ssd_3952_5655^ssd_3952_9323^ssd_3952_9115^ssd_3952_5758^ssd_3952_5512^ssd_3952_2748^ssd_3952_2725^ssd_3952_2704^ssd_3952_1904^ssd_3952_1903^ssd_3952_9954^ssd_3952_AGGA^
+060034001BED1^2^30170598^30170598^
+961903                                            Dual AC Power                               
+961904                                            Redundant AC Power                          
+962704                                            Console Expansion 26 Port Enet Switch/Rackmount 
+962725                                            Rackmount TS3000 System Console             
+962748                                            Optical Drive                               
+965512                                            KVM - Display/Keyboard/Mouse                
+965627                                            Install 3957-VEB                            
+965651                                            Plant Install 3956-CS9                      
+965655                                            Plant Install 3956-XS9                      
+965758                                            Integrated Control Path                     
+967331                                            TS7720 Encryption Capable Base Frame        
+969115                      N                     Ship with R3.2 Machine Code                 
+969323                      N                     Expansion Frame Attach                      
+969954                      N                     NEMA L6-30 Power Cord                       
+96AGGA                                            Shipping and Handling F05                   
+263956 CS9    17115       17404       19352       1
+953956CS9          0000DAVTF                     S88020356DQM0             51945582015090720150729I      M                                    TS7720 Cache Controller                     
+060404001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956CS9-1-6^PEMA_RELATED_HW^1^3956CS9-1-6^SB_RELATED_HW^1^3956CS9-1-6^HB_RELATED_HW^1^3956CS9-1-6^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9352^ssd_3956_7404^ssd_3956_7115^
+060034001BED1^3^2FA397A8^2FA397A8^
+967115                                            36 TB SAS Storage                           
+967404                                            Encryption                                  
+969352                      N                     Plant Install in F05                        
+263956 CS9    17115       17404       19352       1
+953956CS9          0000DATKN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Controller                     
+060404001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956CS9-1-5^PEMA_RELATED_HW^1^3956CS9-1-5^SB_RELATED_HW^1^3956CS9-1-5^HB_RELATED_HW^1^3956CS9-1-5^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9352^ssd_3956_7404^ssd_3956_7115^
+060034001BED1^4^30174358^30174358^
+967115                                            36 TB SAS Storage                           
+967404                                            Encryption                                  
+969352                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          000000SN13YCVQJ               S88020356DQM0             519455820150907        I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-30^PEMA_RELATED_HW^1^3956XS9-1-30^SB_RELATED_HW^1^3956XS9-1-30^HB_RELATED_HW^1^3956XS9-1-30^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^5^2FA39678^2FA39678^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXYL                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-29^PEMA_RELATED_HW^1^3956XS9-1-29^SB_RELATED_HW^1^3956XS9-1-29^HB_RELATED_HW^1^3956XS9-1-29^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^6^2FA369F0^2FA369F0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXYE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-28^PEMA_RELATED_HW^1^3956XS9-1-28^SB_RELATED_HW^1^3956XS9-1-28^HB_RELATED_HW^1^3956XS9-1-28^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^7^2FA39EC8^2FA39EC8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXY                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-27^PEMA_RELATED_HW^1^3956XS9-1-27^SB_RELATED_HW^1^3956XS9-1-27^HB_RELATED_HW^1^3956XS9-1-27^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^8^301735B0^301735B0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-26^PEMA_RELATED_HW^1^3956XS9-1-26^SB_RELATED_HW^1^3956XS9-1-26^HB_RELATED_HW^1^3956XS9-1-26^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060034001BED1^9^30176EB0^30176EB0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXXH                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-25^PEMA_RELATED_HW^1^3956XS9-1-25^SB_RELATED_HW^1^3956XS9-1-25^HB_RELATED_HW^1^3956XS9-1-25^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^10^301748B0^301748B0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXWZ                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-24^PEMA_RELATED_HW^1^3956XS9-1-24^SB_RELATED_HW^1^3956XS9-1-24^HB_RELATED_HW^1^3956XS9-1-24^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^11^30175A80^30175A80^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXRE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-23^PEMA_RELATED_HW^1^3956XS9-1-23^SB_RELATED_HW^1^3956XS9-1-23^HB_RELATED_HW^1^3956XS9-1-23^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^12^30175B18^30175B18^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXNY                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-22^PEMA_RELATED_HW^1^3956XS9-1-22^SB_RELATED_HW^1^3956XS9-1-22^HB_RELATED_HW^1^3956XS9-1-22^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^13^30173E98^30173E98^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXKW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-21^PEMA_RELATED_HW^1^3956XS9-1-21^SB_RELATED_HW^1^3956XS9-1-21^HB_RELATED_HW^1^3956XS9-1-21^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^14^30176498^30176498^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXKV                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-20^PEMA_RELATED_HW^1^3956XS9-1-20^SB_RELATED_HW^1^3956XS9-1-20^HB_RELATED_HW^1^3956XS9-1-20^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^15^30177240^30177240^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAXFE                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-19^PEMA_RELATED_HW^1^3956XS9-1-19^SB_RELATED_HW^1^3956XS9-1-19^HB_RELATED_HW^1^3956XS9-1-19^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^16^30177078^30177078^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWZW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-18^PEMA_RELATED_HW^1^3956XS9-1-18^SB_RELATED_HW^1^3956XS9-1-18^HB_RELATED_HW^1^3956XS9-1-18^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^17^30172A68^30172A68^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWZV                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-17^PEMA_RELATED_HW^1^3956XS9-1-17^SB_RELATED_HW^1^3956XS9-1-17^HB_RELATED_HW^1^3956XS9-1-17^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^18^30176B20^30176B20^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWWL                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x29D622A0 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-16^PEMA_RELATED_HW^1^3956XS9-1-16^SB_RELATED_HW^1^3956XS9-1-16^HB_RELATED_HW^1^3956XS9-1-16^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^19^30173810^30173810^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWMA                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-15^PEMA_RELATED_HW^1^3956XS9-1-15^SB_RELATED_HW^1^3956XS9-1-15^HB_RELATED_HW^1^3956XS9-1-15^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^20^301745B8^301745B8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWLT                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-14^PEMA_RELATED_HW^1^3956XS9-1-14^SB_RELATED_HW^1^3956XS9-1-14^HB_RELATED_HW^1^3956XS9-1-14^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^21^30171178^30171178^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWLR                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-13^PEMA_RELATED_HW^1^3956XS9-1-13^SB_RELATED_HW^1^3956XS9-1-13^HB_RELATED_HW^1^3956XS9-1-13^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^22^30173778^30173778^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFW                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-12^PEMA_RELATED_HW^1^3956XS9-1-12^SB_RELATED_HW^1^3956XS9-1-12^HB_RELATED_HW^1^3956XS9-1-12^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^23^30177F50^30177F50^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFN                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-11^PEMA_RELATED_HW^1^3956XS9-1-11^SB_RELATED_HW^1^3956XS9-1-11^HB_RELATED_HW^1^3956XS9-1-11^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^24^301736E0^301736E0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFK                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060409001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-10^PEMA_RELATED_HW^1^3956XS9-1-10^SB_RELATED_HW^1^3956XS9-1-10^HB_RELATED_HW^1^3956XS9-1-10^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^25^30175230^30175230^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFH                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060405001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-9^PEMA_RELATED_HW^1^3956XS9-1-9^SB_RELATED_HW^1^3956XS9-1-9^HB_RELATED_HW^1^3956XS9-1-9^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^26^301753F8^301753F8^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWFG                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060405001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-8^PEMA_RELATED_HW^1^3956XS9-1-8^SB_RELATED_HW^1^3956XS9-1-8^HB_RELATED_HW^1^3956XS9-1-8^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^27^301755C0^301755C0^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263956 XS9    17116       17404       19354       1
+953956XS9          0000DAWER                     S88020356DQM0             51945582015090720150728I      M                                    TS7720 Cache Module                         
+060405001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3956XS9-1-7^PEMA_RELATED_HW^1^3956XS9-1-7^SB_RELATED_HW^1^3956XS9-1-7^HB_RELATED_HW^1^3956XS9-1-7^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^3^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^3^ssd_3956_9354^ssd_3956x_7404^ssd_3956_7116^
+060035001BED1^28^30176958^30176958^
+967116                                            33 TB SAS Storage                           
+967404                                            Encryption                                  
+969354                      N                     Plant Install in F05                        
+263957 VEB    10201       41034       11036       22715       13442       44015       14016       14017       15241       15268       55272       19000       19115       19268       19350       1
+953957VEB          0000H6064                     S888803675780             367578 2015090720140101I      M                                    TS7720 Virtualization Engine Server         
+061175001MDDIBM_PHYSEL_SELECTIONS:29:panel_ssd_3954_features^3^cfgwiz_leave_panel_event^43^ssd_system_component^IBM_PHYSEL_SELECTIONS:29:panel_ssd_quantity_no_gov^3^cfgwiz_leave_panel_event^40^panel_ssd_3954_features^IBM_PHYSEL_SELECTIONS:29:wizard_ssd_3954_notebook^4^initialize_event^cfgwiz_update_configuration_event^39^44^IBM_PHYSEL_SELECTIONS:29:control_3954_features_cn^6^ssd_3957_4016^ssd_3957_4017^41^42^1^1^IBM_PHYSEL:ssd_3957_veb_cabinet:SBO_ATL_SSD:0000000:ssd_3952_f05_cabinet:000018084:ssd_3957_veb_cabinet:0000H6064^4^29^ssd_3957_veb_cabinet^wizard_ssd_3954_notebook^FALSE^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_3952_Cabinets 0x300D7C00 [ssd_3952_f05_cabinet]^SERVICE_INTEGRATOR_RELATED_HW^1^3957VEB-1-4^PEMA_RELATED_HW^1^3957VEB-1-4^SB_RELATED_HW^1^3957VEB-1-4^HB_RELATED_HW^1^3957VEB-1-4^IBM_MTM_CONTEXTS_MC^1^ssd_system_component^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^15^5^2^1^1^1^1^1^1^1^4^1^4^1^1^1^SSD_MTM_EXPLICIT_SELECTION_MC^15^ssd_3957b_5268^ssd_3957_1036^ssd_3957b_5241^ssd_3957_9268^ssd_3957_9115^ssd_3957_9000^ssd_3957_5272^ssd_3957_4015^ssd_3957_1034^ssd_3957_3442^ssd_3957_2715^ssd_3957_0201^ssd_3957_9350^ssd_3957_4016^ssd_3957_4017^
+060035001BED1^29^301768C0^301768C0^
+960201                                            9 Micron LC/LC 31 Meter                     
+961034                                            Enable Dual Port Grid Connection            
+961036                                            1Gb Grid Dual Port Copper Connection        
+962715                      N                     Console Attachment                          
+963442                                            FICON Long Wavelength Attachment            
+964015                                            Grid Enablement                             
+964016                                            Remove Cluster from Grid                    
+964017                                            Cluster Cleanup                             
+965241                                            Dual Port FC HBA                            
+965268                                            100 MB/sec Increment                        
+965272                                            Enable Disk Encryption                      
+969000                      N                     Mainframe Attachment                        
+969115                      N                     Ship with R3.2 Machine Code                 
+969268                      N                     100 MB/s Throughput - Plant                 
+969350                      N                     Plant Install in F05                        
+014ORDER TRANSACTIONS                                                                
+193957VEB       44016       114017       11
+953957VEB          0000H6064                     S888803675780             367578 2015090720140101       M                                    TS7720 Virtualization Engine Server         
+964016                                            Remove Cluster from Grid                    
+964017                                            Cluster Cleanup                             
+05         10   +--------------------------------------------------+        
+05         10   Base System Modification Summary                            
+05         10   +--------------------------------------------------+        
+05         10   3957-VEB Feature Changes TS7720 Virtualization Engine Server
+05         10      1-8B3616 Removed TS7720 Encryption                       
+05         10      1-9112 Removed Ship with R2.1 Machine Code               
+05         10      1-5272 Added Enable Disk Encryption                      
+05         10      1-9115 Added Ship with R3.2 Machine Code                 
+05         10                                                               
+98  497
+993251562427

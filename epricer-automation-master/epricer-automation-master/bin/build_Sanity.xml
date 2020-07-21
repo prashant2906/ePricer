@@ -1,0 +1,108 @@
+<project name="ePricerReWrite" default="main" basedir=".">
+	<description>
+		Create Ant Build for ePricerRewrite
+		
+	</description>
+
+	<property name="projectName" value="ePricerReWrite" />
+
+
+	<!-- Java sources -->
+	<property name="src.dir" location="src" />
+
+	<!-- Java sources -->
+	<property name="main.dir" location="." />
+
+	<!-- Java classes -->
+	<property name="build.dir" location="target_regression" />
+
+	<!-- Java classes -->
+	<property name="zip.dir" location="${src.dir}/SeleniumBuild" />
+
+	<!-- Output, Jar -->
+	<property name="lib.dir" location="lib" />
+	<property name="config.dir" location="config" />
+	<property name="resource.dir" location="resource" />
+
+	<path id="project.class.path">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="init">
+		<tstamp />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${zip.dir}"/>
+		<!--mkdir dir="${zip.dir}/test-output"/-->
+		<mkdir dir="${zip.dir}/lib"/>
+		<mkdir dir="${zip.dir}/src"/>
+		<mkdir dir="${zip.dir}/resource/TestData"/>
+	</target>
+
+	<target name="compile" depends="init" description="compile the source ">
+		<javac target="1.7" source="1.7"  includeantruntime="false" srcdir="${src.dir}" destdir="${build.dir}">
+			<classpath refid="project.class.path" />
+		</javac>
+	</target>
+	<target name="createZip" depends="createJar">
+		<!--copy todir="${zip.dir}/test-output">
+			    <fileset dir="test-output"/>
+			</copy-->
+		<copy todir="${zip.dir}/lib">
+			<fileset dir="${lib.dir}" includes="*.jar"/>
+		</copy>
+		<copy todir="${zip.dir}/src">
+			<fileset dir="${src.dir}" includes="*.xml" />
+			<fileset dir="${src.dir}" includes="*.Properties" />
+		</copy>
+		<copy todir="${zip.dir}/resource/TestData">
+			<fileset dir="${resource.dir}/TestData" includes="*" />
+		</copy>
+		<copy todir="${zip.dir}/config">
+			<fileset dir="${config.dir}" includes="*" />
+		</copy>
+		<copy todir="${zip.dir}/resource/css">
+			<fileset dir="${resource.dir}/css" includes="*" />
+		</copy>
+		<copy todir="${zip.dir}/resource/image">
+			<fileset dir="${resource.dir}/image" includes="*" />
+		</copy>
+
+		<!-- Default, run this -->
+		<copy todir="${zip.dir}">
+			<fileset dir="${main.dir}" includes="*testng_Sanity_BP.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Sanity_IBM.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Regression_BP.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Regression_IBM.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Legal_Min.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Legal_BP.xml" />
+			<fileset dir="${main.dir}" includes="*testng_Legal_IBM.xml" />
+			<fileset dir="${main.dir}" includes="*build_Sanity.xml" />
+			<fileset dir="${main.dir}" includes="*log4j.properties" />
+		</copy>
+		<zip destfile="${projectName}-EpricerSelenium.zip" basedir="${zip.dir}" excludes=".*" />
+		<delete includeemptydirs="true">
+			<fileset dir="${build.dir}">
+				<include name="**/*"/>
+			</fileset>
+		</delete>
+		<delete dir="${zip.dir}" />
+		<delete file="${lib.dir}/${projectName}-EpricerSelenium.jar" />
+	</target>
+
+	<target name="createJar" depends="compile" description="Copy">
+		<jar jarfile="${lib.dir}/${projectName}-EpricerSelenium.jar" basedir="${build.dir}" />
+	</target>
+
+	<target name="clean" description="clean up">
+		<delete dir="${build.dir}" />
+		<delete dir="${zip.dir}" />
+		<delete file="${lib.dir}/${projectName}-EpricerSelenium.jar" />
+		<delete file="${projectName}-EpricerSelenium.zip" />
+	</target>
+
+	<!-- Default, run this -->
+	<target name="main" depends="clean, compile, createJar , createZip" />
+</project>
+

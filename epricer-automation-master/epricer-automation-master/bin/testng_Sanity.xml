@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"   >
+<suite name="Test Suite for Sanity BP" verbose="2">
+	<parameter name="Test" value="Sanity"></parameter>
+	<parameter name="env" value="MAINT"></parameter>
+	<parameter name="Parallel" value="true"></parameter>
+	<test name="TestNG Test Sanity BP">
+		<classes>
+			<class name="com.ibm.stax.Utilities.Create_TestNGXML" />
+		</classes>
+	</test>
+</suite>

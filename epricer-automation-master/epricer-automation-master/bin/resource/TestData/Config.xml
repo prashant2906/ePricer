@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Environment_Details>
+	<!--  	<AppUrl>https://wwwbeta-2.toronto.ca.ibm.com/partnerworld/commerce/programs/portal/selectApplicationForm.do</AppUrl> -->
+		<AppUrl>about:blank</AppUrl>
+		
+		<DEVIBM>epricercdtdev.w3-969.ibm.com/services/epricer/v2/ibm/</DEVIBM>
+		<MAINTIBM>epricercdtmaint.w3-969.ibm.com/services/epricer/v2/ibm/</MAINTIBM>
+		<IVTIBM>w3-01preprod.ibm.com/services/epricer/v2/ibm/</IVTIBM>
+		<PRODIBM>w3-01.ibm.com/services/epricer/v2/ibm/</PRODIBM>
+		
+		<DEVBPDirectPCS>https://wwwbeta-2.toronto.ca.ibm.com/partnerworld/commerce/programs/portal/selectApplicationForm.do </DEVBPDirectPCS>
+		<MAINTBPDirectPCS>https://wwwbeta-2.toronto.ca.ibm.com/partnerworld/commerce/programs/portal/selectApplicationForm.do</MAINTBPDirectPCS>
+		<IVTBPDirectPCS>https://tgawdcsit201.sl.bluecloud.ibm.com/partnerworld/commerce/programs/portal/selectApplicationForm.do</IVTBPDirectPCS>
+		<PRODBPDirectPCS>https://www.ibm.com/partnerworld/commerce/programs/portal/active/home/signin.jsp</PRODBPDirectPCS>
+		
+		<DEVMySA>https://mysa-bpspoke-dev.w3ibm.mybluemix.net/</DEVMySA>
+		<MAINTMySA>https://mysa-bpspoke-dev.w3ibm.mybluemix.net/</MAINTMySA>
+		<IVTMySA>https://mysa-stage.mybluemix.net/salesactivities/</IVTMySA>
+		<PRODMySA>http://mysa.ibm.com/</PRODMySA>
+		
+	</Environment_Details>
+
+		<Execution_Details>
+		<Execution_Type>Single</Execution_Type>	
+		<Regression_Suite_Name>EPRICER</Regression_Suite_Name>
+	</Execution_Details>
+	<timeout>90</timeout>
+	
+</Root>

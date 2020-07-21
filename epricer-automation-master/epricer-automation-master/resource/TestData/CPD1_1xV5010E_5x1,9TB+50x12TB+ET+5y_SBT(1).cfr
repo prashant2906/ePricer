@@ -1,0 +1,72 @@
+003120200410ECMSSD  19091 191003EM8380021                                                    20191113                                       ESes                     00                                                                                                                                                
+030Unclassified          
+05         10                                                               
+05         10   Created on October 10, 2019 at 01:35PM by jmancera          
+05         10                                                               
+05         1U   Custom ServicePacs require scoping assistance               
+05         1U   Please visit the ServicePac panel and review the recommended
+05         0U   ServicePacs.                                                
+05         10   Customer Requested Arrival Date: 2019/10/24                 
+060899001MDDIBM_WITHDRAWN_PRODUCTS_MODE^1^FALSE^IBM_CRAD^1^19010102^SV_DEFAULT_CATEGORIES^1^SB_Cat_Warranty_Services^SW_Global_06_swrs_cho_global_preference_control^1^sw_core_otc_charge_option^SW_Global_06_swrs_media_global_preference_control^1^swn_esd_media^SW_Global_06_swrs_language_global_preference_control^1^sw_core_language_prim_spanish^SW_Global_06_swrs_maintenance_global_preference_control^1^sw_core_nim_maint_5yr^SW_Global_06_swrs_shipping_options_global_control^1^sw_core_shipping_option_rgst^SW_Global_06_swrs_expedite_global_control^1^sw_core_shipping_option_no_expedite^SW_Global_06_swrs_suppress_global_control^1^sw_core_shipping_option_not_3480^SW_Global_06_swrs_preinstall_languages_control^1^sw_core_preinst_language_spanish^SW_Global_06_swrs_cultural_languages_control^1^sw_core_cultural_std_language^SW_Global_06_swrs_support_global_preference_control^1^sw_9by5_support_service^
+07   2072-224 #1                                     2072224                         
+011INITIAL ORDER CONFIGURATION                                                       
+060241001MDDIBM_PLATFORM^1^All^SW_TYPE^1^All^SW_MODEL^2^^pSeries or RS^sv_microcode_controlSV_EXPLICIT_SELECTED_MICROCODE^0^sv_proactive_controlSV_EXPLICIT_SELECTED_PROACTIVE^0^sv_media_retention_controlSV_EXPLICIT_SELECTED_MEDIARETENTION^0^
+082072 224    19730       1ACSR       4ADN1       1AGJU       1AHPA       1AL80       5ALBB       1ALE9       1ALGA       1
+952072224                   000000000            T           1                    20191024                                                    V5010E SFF Control Enclosure                
+060525001MDDibm_id_S^1^ssd_2078_Gen2_Controller_Models 0x28E00450 [ssd_2072_224]^IBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^SSD_Leaf_Category 0x0280C2E0 [SBO_DASD_SSD]^SSD_2077_DATA^0^SERVICE_INTEGRATOR_RELATED_HW^1^2072224-1-13^SB_RELATED_HW^1^2072224-1-13^HB_RELATED_HW^1^2072224-1-13^IBM_MTM_CONTEXTS_MC^4^ssd_2072_224^ibm_region_emea^ibm_country_spain^ibm_INITIAL^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^5^5^1^1^1^4^SSD_MTM_EXPLICIT_SELECTION_MC^5^ssd_2077_AL80^ssd_2077_ALBB^ssd_2077_ALE9^ssd_2077_ALGA^ssd_2077f_ACSR^
+060034001BED1^1^2A120C20^2A120C20^
+969730                                            Power Cord - PDU Connection                 
+96ACSR                                            5m OM3 Fiber Cable (LC)                     
+96ADN1                      N                     Order Type 1 - CTO                          
+96AGJU                                            Shipping and Handling - Model 224           
+96AHPA                      N                     AC Power Supply HE                          
+96AL80                                            1.92TB 12 Gb SAS 2.5 Inch Flash Drive       
+96ALBB                                            16Gb FC Adapter Pair                        
+96ALE9                                            Easy Tier                                   
+96ALGA                                            Storwize V5000E Cache Upgrade               
+38694279K1    1                    TMY7       11
+95694279K                                                                         20191024                                                    Hardware Maintenance                                        
+060034001BED1^2^2A2CB000^2A2CB000^
+96TMY7                      N                     HWMA IOR SD  24x7 (M19)                                     
+38694285P1    1                    TYW7       11
+95694285P                                                                         20191024                                                    Warranty Service Upgrade                                    
+060034001BED1^3^2A2CA978^2A2CA978^
+96TYW7                      N                     WSU IOR SBD 24x7 (M19)                                      
+386942CON1    1                    0098       11
+956942CON                                       N                                 20191024                                                    Contract Coverage (N/C codes)                               
+060034001BED1^4^2A2CB558^2A2CB558^
+960098                      N                     ServiceSuite                                                
+386942TCS1    1                    0055       11
+956942TCS                                       N                                 20191024                                                    Terms (N/C codes)                                           
+060034001BED1^5^2A2CB260^2A2CB260^
+960055                      N                     Prepay Billing 5 Year Term                                  
+07   2072-224 #1: 2072-92F #2                        207292F                         
+011INITIAL ORDER CONFIGURATION                                                       
+060315001MDDIBM_PLATFORM^1^All^SW_TYPE^1^All^SW_MODEL^2^^pSeries or RS^sv_microcode_controlSV_EXPLICIT_SELECTED_MICROCODE^0^sv_proactive_controlSV_EXPLICIT_SELECTED_PROACTIVE^0^sv_media_retention_controlSV_EXPLICIT_SELECTED_MEDIARETENTION^0^ssd_original_cpu_mtm_id_S^1^ssd_2077_EXN_Models 0x290402C0 [ssd_2072_92F]^
+082072 92F    1ACUC       2ADN1       1AGJZ       1AHP5       1AL4A      50
+95207292F                   000000000            T           1                    20191024                                                    V5000E HD LFF Expansion Enclosure           
+060390001MDDIBM_MTM_NAME^1^^SSD_RACK_CB^1^2^ibm_parent_id_S^1^ssd_2078_Gen2_Controller_Models 0x28E00450 [ssd_2072_224]^SERVICE_INTEGRATOR_RELATED_HW^1^207292F-2-14^SB_RELATED_HW^1^207292F-2-14^HB_RELATED_HW^1^207292F-2-14^IBM_MTM_CONTEXTS_MC^4^ssd_2072_92F^ibm_region_emea^ibm_country_spain^ibm_INITIAL^SSD_MTM_EXPLICIT_SELECTION_QTYS_MF^1^50^SSD_MTM_EXPLICIT_SELECTION_MC^1^ssd_2077_AL4A^
+060034001BED2^6^2A120928^2A120928^
+96ACUC                                            3m 12Gb SAS Cable (mSAS HD)                 
+96ADN1                      N                     Order Type 1 - CTO                          
+96AGJZ                                            Shipping and Handling - Model 92F           
+96AHP5                                            Power Cord - PDU HD Exp.                    
+96AL4A                                            12TB 7.2K 3.5 Inch NL HDD                   
+38694279K1    1                    TMY7       11
+95694279K                                                                         20191024                                                    Hardware Maintenance                                        
+060034001BED2^7^2A2CB850^2A2CB850^
+96TMY7                      N                     HWMA IOR SD  24x7 (M19)                                     
+38694285P1    1                    TYW7       11
+95694285P                                                                         20191024                                                    Warranty Service Upgrade                                    
+060034001BED2^8^2A2CAC70^2A2CAC70^
+96TYW7                      N                     WSU IOR SBD 24x7 (M19)                                      
+386942CON1    1                    0098       11
+956942CON                                       N                                 20191024                                                    Contract Coverage (N/C codes)                               
+060034001BED2^9^2A2CBDA8^2A2CBDA8^
+960098                      N                     ServiceSuite                                                
+386942TCS1    1                    0055       11
+956942TCS                                       N                                 20191024                                                    Terms (N/C codes)                                           
+060035001BED2^10^2A2CBAB0^2A2CBAB0^
+960055                      N                     Prepay Billing 5 Year Term                                  
+98   71
+991222446649
